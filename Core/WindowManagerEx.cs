@@ -724,15 +724,24 @@ namespace Poderosa.Forms {
         /// 英語</ja>
         /// <en>
         /// English</en>
+        /// <zh>英语</zh>
         /// </summary>
         [EnumValue(Description = "Enum.Language.English")]
         English,
         /// <summary>
         /// <ja>日本語</ja>
         /// <en>Japanese</en>
+        /// <zh>日语</zh>
         /// </summary>
         [EnumValue(Description = "Enum.Language.Japanese")]
-        Japanese
+        Japanese,
+        /// <summary>
+        /// <ja>中文</ja>
+        /// <en>中文</en>
+        /// <zh>中文</zh>
+        /// </summary>
+        [EnumValue(Description = "Enum.Language.Chinese")]
+        Chinese
     }
 
 

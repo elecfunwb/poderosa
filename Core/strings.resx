@@ -23,6 +23,9 @@
   <data name="Enum.Language.Japanese">
     <value>Japanese</value>
   </data>
+  <data name="Enum.Language.Chinese">
+    <value>Chinese</value>
+  </data>
   <data name="Form.AboutBox.Text">
     <value>About Poderosa</value>
   </data>

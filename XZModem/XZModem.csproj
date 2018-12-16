@@ -90,6 +90,7 @@
     <EmbeddedResource Include="strings_ja.resx">
       <SubType>Designer</SubType>
     </EmbeddedResource>
+    <EmbeddedResource Include="strings_zh.resx" />
     <EmbeddedResource Include="XZModemDialog.resx">
       <DependentUpon>XZModemDialog.cs</DependentUpon>
       <SubType>Designer</SubType>

@@ -145,9 +145,7 @@
       <SubType>UserControl</SubType>
     </Compile>
     <Compile Include="PoderosaLogViewerPlugin.cs" />
-    <Compile Include="PoderosaLogViewerSession.cs">
-      <SubType>Component</SubType>
-    </Compile>
+    <Compile Include="PoderosaLogViewerSession.cs" />
     <Compile Include="PreferenceEditor.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -222,6 +220,7 @@
     <EmbeddedResource Include="strings_ja.resx">
       <SubType>Designer</SubType>
     </EmbeddedResource>
+    <EmbeddedResource Include="strings_zh.resx" />
     <EmbeddedResource Include="TerminalOptionPanel.resx">
       <SubType>Designer</SubType>
       <DependentUpon>TerminalOptionPanel.cs</DependentUpon>

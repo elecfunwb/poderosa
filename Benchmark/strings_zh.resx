@@ -1,0 +1,23 @@
+﻿<root>
+  <resheader name="ResMimeType">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="Version">
+    <value>1.0.0.0</value>
+  </resheader>
+  <resheader name="Reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=1.0.3102.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="Writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=1.0.3102.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Menu.Benchmark">
+    <value>基准测试</value>
+  </data>
+  <data name="Menu.StartXTermBenchmark">
+    <value>开始XTerm基准测试</value>
+  </data>
+  <data name="Menu.StartDataLoadBenchmark">
+    <value>通过文件开始基准测试</value>
+  </data>
+</root>

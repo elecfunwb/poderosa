@@ -9,16 +9,19 @@ $Id: stringresource.xml,v 1.1 2011/12/25 03:12:09 kzmi Exp $
 <record name="Menu.Benchmark">
   <ja>ベンチマーク</ja>
   <en>Benchmark</en>
+  <zh>基准测试</zh>
 </record>
 
 <record name="Menu.StartXTermBenchmark">
   <ja>XTermベンチマークを開始</ja>
   <en>Start XTerm benchmark</en>
+  <zh>开始XTerm基准测试</zh>
 </record>
 
 <record name="Menu.StartDataLoadBenchmark">
   <ja>ファイルを読み込んでベンチマークを開始...</ja>
   <en>Start benchmark by file...</en>
+  <zh>通过文件开始基准测试</zh>
 </record>
 
 </string-resource>

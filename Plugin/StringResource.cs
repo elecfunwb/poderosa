@@ -76,6 +76,8 @@ namespace Poderosa {
             //当面は英語・日本語しかしない
             if (newculture.Name.StartsWith("ja"))
                 _resourceManager = new ResourceManager(_resourceName + "_ja", _assembly);
+            else if (newculture.Name.StartsWith("zh"))
+                _resourceManager = new ResourceManager(_resourceName + "_zh", _assembly);
             else
                 _resourceManager = new ResourceManager(_resourceName, _assembly);
         }

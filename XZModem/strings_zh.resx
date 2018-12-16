@@ -1,0 +1,107 @@
+﻿<root>
+  <resheader name="ResMimeType">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="Version">
+    <value>1.0.0.0</value>
+  </resheader>
+  <resheader name="Reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=1.0.3102.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="Writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=1.0.3102.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Common.OK">
+    <value>确定</value>
+  </data>
+  <data name="Common.Cancel">
+    <value>取消</value>
+  </data>
+  <data name="Common.Reception">
+    <value>接收</value>
+  </data>
+  <data name="Common.Transmission">
+    <value>发送</value>
+  </data>
+  <data name="Menu.XZModem">
+    <value>X/ZMODEM(&amp;X)...</value>
+  </data>
+  <data name="Command.XZModem">
+    <value>X/ZMODEM(&amp;X)传输...</value>
+  </data>
+  <data name="Form.XZModemDialog._okButton">
+    <value>开始</value>
+  </data>
+  <data name="Form.XZModemDialog._fileNameLabel">
+    <value>文件名</value>
+  </data>
+  <data name="Form.XZModemDialog._protocolLabel">
+    <value>协议</value>
+  </data>
+  <data name="Form.XZModemDialog._directionLabel">
+    <value>发送/接收</value>
+  </data>
+  <data name="Caption.XZModemDialog.Reception">
+    <value>从主机接收</value>
+  </data>
+  <data name="Caption.XZModemDialog.Transmission">
+    <value>向主机发送</value>
+  </data>
+  <data name="Caption.XZModemDialog.DialogTitle">
+    <value>X/ZModem - {0}</value>
+  </data>
+  <data name="Caption.XZModemDialog.ReceptionFileSelect">
+    <value>保存选择的文件</value>
+  </data>
+  <data name="Caption.XZModemDialog.TransmissionFileSelect">
+    <value>发送选择的文件</value>
+  </data>
+  <data name="Caption.XZModemDialog.ReceptionProgress">
+    <value>已接收: {0} 字节...</value>
+  </data>
+  <data name="Caption.XZModemDialog.TransmissionProgress">
+    <value>已发送: {0} 字节...</value>
+  </data>
+  <data name="Caption.XZModemDialog.InitialPrompt">
+    <value>主机准备好后请点击开始</value>
+  </data>
+  <data name="Caption.XZModemDialog.Negotiating">
+    <value>通信中...</value>
+  </data>
+  <data name="Caption.XZModemDialog.FileMustBeSpecified">
+    <value>必须指定文件</value>
+  </data>
+  <data name="Message.XModem.ReceivingTimedOut">
+    <value>接收数据超时</value>
+  </data>
+  <data name="Message.XModem.ReceiveComplete">
+    <value>接收完成</value>
+  </data>
+  <data name="Message.XModem.SendComplete">
+    <value>发送完成</value>
+  </data>
+  <data name="Message.XModem.NoResponse">
+    <value>无响应。已停止</value>
+  </data>
+  <data name="Message.XModem.CouldNotReceiveCorrectData">
+    <value>无法接收正确数据。已停止</value>
+  </data>
+  <data name="Message.XModem.Cancelled">
+    <value>文件传输已取消</value>
+  </data>
+  <data name="Message.ZModem.CRCError">
+    <value>CRC错误</value>
+  </data>
+  <data name="Message.ZModem.BufferFull">
+    <value>缓冲区已满</value>
+  </data>
+  <data name="Message.ZModem.InvalidHeader">
+    <value>检验头错误</value>
+  </data>
+  <data name="Message.ZModem.Aborted">
+    <value>对方已中止</value>
+  </data>
+  <data name="Message.ZModem.FileSkipped">
+    <value>文件已跳过。(可能文件已存在)</value>
+  </data>
+</root>

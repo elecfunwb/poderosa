@@ -1,0 +1,403 @@
+﻿<root>
+  <resheader name="ResMimeType">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="Version">
+    <value>1.0.0.0</value>
+  </resheader>
+  <resheader name="Reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=1.0.3102.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="Writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=1.0.3102.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Common.OK">
+    <value>确定</value>
+  </data>
+  <data name="Common.Cancel">
+    <value>取消</value>
+  </data>
+  <data name="Common.FontSample">
+    <value>Poderosa</value>
+  </data>
+  <data name="Common.CJKFontSample">
+    <value>
+    </value>
+  </data>
+  <data name="CommandCategory.SSH">
+    <value>SSH</value>
+  </data>
+  <data name="Command.OptionDialog">
+    <value>设置对话框</value>
+  </data>
+  <data name="Command.GenerateKeyPair">
+    <value>SSH密钥生成向导</value>
+  </data>
+  <data name="Command.ChangePassphrase">
+    <value>更改私钥密码</value>
+  </data>
+  <data name="Command.AgentKeyListDialog">
+    <value>Agent forwarding configuration</value>
+  </data>
+  <data name="Command.EditRenderProfile">
+    <value>编辑显示配置文件</value>
+  </data>
+  <data name="Command.RenameTab">
+    <value>重命名标签</value>
+  </data>
+  <data name="Command.CommentLog">
+    <value>在log中插入注释</value>
+  </data>
+  <data name="Command.ChangeLog">
+    <value>更改log设置</value>
+  </data>
+  <data name="Command.PoderosaLog">
+    <value>显示Poderosa事件日志</value>
+  </data>
+  <data name="Menu.EditRenderProfile">
+    <value>编辑显示配置文件</value>
+  </data>
+  <data name="Menu.RenameTab">
+    <value>重命名标签</value>
+  </data>
+  <data name="Caption.RenameTab">
+    <value>重命名标签</value>
+  </data>
+  <data name="Menu.CommentLog">
+    <value>在log中插入注释</value>
+  </data>
+  <data name="Menu.ChangeLog">
+    <value>更改log设置</value>
+  </data>
+  <data name="Menu.PoderosaLog">
+    <value>显示Poderosa事件日志</value>
+  </data>
+  <data name="Form.ChangeLog.Text">
+    <value>日志设置</value>
+  </data>
+  <data name="Form.ChangeLog._logTypeLabel">
+    <value>日志类型</value>
+  </data>
+  <data name="Form.ChangeLog._fileNameLabel">
+    <value>文件名</value>
+  </data>
+  <data name="Form.CommentLog._insertButton">
+    <value>插入...</value>
+  </data>
+  <data name="Form.CommentLog.Text">
+    <value>在log中插入注释</value>
+  </data>
+  <data name="Menu.CommentLog.Time">
+    <value>时间</value>
+  </data>
+  <data name="Menu.CommentLog.DateTime">
+    <value>日期和时间</value>
+  </data>
+  <data name="Form.EditRenderProfile._bgColorLabel">
+    <value>背景色(&amp;B)</value>
+  </data>
+  <data name="Form.EditRenderProfile._textColorLabel">
+    <value>文本颜色(&amp;T)</value>
+  </data>
+  <data name="Form.EditRenderProfile._editEscapeSequenceColorBox">
+    <value>转义序列的颜色设置</value>
+  </data>
+  <data name="Form.EditRenderProfile._fontSelectButton">
+    <value>更改</value>
+  </data>
+  <data name="Form.EditRenderProfile._fontLabel">
+    <value>字体</value>
+  </data>
+  <data name="Form.EditRenderProfile._backgroungImageLabel">
+    <value>背景图片</value>
+  </data>
+  <data name="Form.EditRenderProfile._imageStyleLabel">
+    <value>图片位置</value>
+  </data>
+  <data name="Form.EditRenderProfile._setToDefaultButton">
+    <value>默认</value>
+  </data>
+  <data name="Form.EditRenderProfile.Text">
+    <value>编辑显示配置文件</value>
+  </data>
+  <data name="Message.EditRenderProfile.InvalidPicture">
+    <value>{0} 不是一个有效的图片文件。</value>
+  </data>
+  <data name="Util.SelectPicture.Caption">
+    <value>选择图片文件</value>
+  </data>
+  <data name="Form.EditEscapesequenceColor.Text">
+    <value>转义序列的颜色设置</value>
+  </data>
+  <data name="Form.EditEscapesequenceColor._setDefaultButton">
+    <value>恢复默认设置</value>
+  </data>
+  <data name="Caption.EditEscapesequenceColor.DefaultColor">
+    <value>默认</value>
+  </data>
+  <data name="Caption.EditEscapesequenceColor.BackColor">
+    <value>背景</value>
+  </data>
+  <data name="Form.GFontDialog._lAsciiFont">
+    <value>字体</value>
+  </data>
+  <data name="Form.GFontDialog._lCJKFont">
+    <value>CJK字体</value>
+  </data>
+  <data name="Form.GFontDialog._lFontSize">
+    <value>大小</value>
+  </data>
+  <data name="Form.GFontDialog._checkClearType">
+    <value>尽量使用ClearType字体</value>
+  </data>
+  <data name="Form.GFontDialog._checkBoldStyle">
+    <value>允许使用粗体</value>
+  </data>
+  <data name="Form.GFontDialog._checkForceBoldStyle">
+    <value>强制使用粗体</value>
+  </data>
+  <data name="Form.GFontDialog._labelNotice">
+    <value>
+    </value>
+  </data>
+  <data name="Form.GFontDialog.Text">
+    <value>选择字体</value>
+  </data>
+  <data name="Message.GFontDialog.NotTrueTypeWarning">
+    <value>字体大小{0}不是TrueType字体，已更改为{1}</value>
+  </data>
+  <data name="Menu.OptionDialog">
+    <value>选项</value>
+  </data>
+  <data name="Form.OptionDialog.Text">
+    <value>选项设置</value>
+  </data>
+  <data name="Form.OptionDialog._displayPanel">
+    <value>显示</value>
+  </data>
+  <data name="Form.OptionDialog._colorFontGroup">
+    <value>颜色/字体/背景</value>
+  </data>
+  <data name="Form.OptionDialog._bgColorLabel">
+    <value>背景颜色</value>
+  </data>
+  <data name="Form.OptionDialog._textColorLabel">
+    <value>字体颜色</value>
+  </data>
+  <data name="Form.OptionDialog._editEscapeSequenceColorBox">
+    <value>转义序列的颜色设置</value>
+  </data>
+  <data name="Form.OptionDialog._darkenEsColorForBackground">
+    <value>使用暗色作为背景颜色</value>
+  </data>
+  <data name="Form.OptionDialog._fontLabel">
+    <value>字体(&amp;F)</value>
+  </data>
+  <data name="Form.OptionDialog._fontSelectButton">
+    <value>更改</value>
+  </data>
+  <data name="Form.OptionDialog._backgroundImageLabel">
+    <value>背景图片(&amp;I)</value>
+  </data>
+  <data name="Form.OptionDialog._imageStyleLabel">
+    <value>图片位置(&amp;L)</value>
+  </data>
+  <data name="Form.OptionDialog._applyRenderProfileButton">
+    <value>应用到所有</value>
+  </data>
+  <data name="Form.OptionDialog._caretGroup">
+    <value>光标</value>
+  </data>
+  <data name="Form.OptionDialog._caretStyleLabel">
+    <value>样式(&amp;S)</value>
+  </data>
+  <data name="Form.OptionDialog._caretSpecifyColor">
+    <value>指定颜色(&amp;C)</value>
+  </data>
+  <data name="Form.OptionDialog._caretBlink">
+    <value>闪烁(&amp;K)</value>
+  </data>
+  <data name="Form.OptionDialog._lineSpacingLabel">
+    <value>行间距</value>
+  </data>
+  <data name="Form.OptionDialog._pixelsLabel">
+    <value>像素</value>
+  </data>
+  <data name="Form.OptionDialog._terminalPanel">
+    <value>终端</value>
+  </data>
+  <data name="Form.OptionDialog._charDecodeErrorBehaviorLabel">
+    <value>无效数据时(&amp;I)</value>
+  </data>
+  <data name="Form.OptionDialog._bufferSizeLabel">
+    <value>缓冲区大小</value>
+  </data>
+  <data name="Form.OptionDialog._disconnectNotificationLabel">
+    <value>断开时提示方法(&amp;N)</value>
+  </data>
+  <data name="Form.OptionDialog._closeOnDisconnect">
+    <value>断开时关闭窗口(&amp;P)</value>
+  </data>
+  <data name="Form.OptionDialog._beepOnBellChar">
+    <value>收到铃声字符时发出声音(&amp;B)</value>
+  </data>
+  <data name="Form.OptionDialog._adjustsTabTitleToWindowTitle">
+    <value>将选项卡名称与xterm窗口标题对应(&amp;T)</value>
+  </data>
+  <data name="Form.OptionDialog._allowsScrollInAppMode">
+    <value>在应用程序模式下允许滚动(&amp;S)</value>
+  </data>
+  <data name="Form.OptionDialog._keepAliveCheck">
+    <value>自动发送心跳包(&amp;S)</value>
+  </data>
+  <data name="Form.OptionDialog._keepAliveLabel">
+    <value>分钟</value>
+  </data>
+  <data name="Form.OptionDialog._defaultLogTypeLabel">
+    <value>日志类型(&amp;L)</value>
+  </data>
+  <data name="Form.OptionDialog._defaultLogDirectoryLabel">
+    <value>保存路径(&amp;D)</value>
+  </data>
+  <data name="Form.OptionDialog._autoLogCheckBox">
+    <value>自动设置日志文件名称(&amp;A)</value>
+  </data>
+  <data name="Form.OptionDialog._peripheralPanel">
+    <value>操作</value>
+  </data>
+  <data name="Form.OptionDialog._mouseGroup">
+    <value>鼠标</value>
+  </data>
+  <data name="Form.OptionDialog._keyboardGroup">
+    <value>键盘</value>
+  </data>
+  <data name="Form.OptionDialog._leftAltKeyLabel">
+    <value>左Alt用途(&amp;L)</value>
+  </data>
+  <data name="Form.OptionDialog._rightAltKeyLabel">
+    <value>右Alt用途(&amp;R)</value>
+  </data>
+  <data name="Form.OptionDialog._send0x7FByDel">
+    <value>Delete键按下时发送0x7F(&amp;D)</value>
+  </data>
+  <data name="Form.OptionDialog._send0x7FByBack">
+    <value>BackSpace键按下时发送0x7F(&amp;K)</value>
+  </data>
+  <data name="Form.OptionDialog._zone0x1FLabel">
+    <value>&amp;0x1C-0x1F发送方法</value>
+  </data>
+  <data name="Form.OptionDialog._autoKeySettingsLabel">
+    <value>按键定义</value>
+  </data>
+  <data name="Form.OptionDialog._customKeySettingsLabel">
+    <value>更多按键定义</value>
+  </data>
+  <data name="Form.OptionDialog._autoCopyByLeftButton">
+    <value>鼠标选中时自动复制</value>
+  </data>
+  <data name="Form.OptionDialog._additionalWordElementLabel">
+    <value>单词自动追加字符</value>
+  </data>
+  <data name="Form.OptionDialog._rightButtonActionLabel">
+    <value>单击右键(&amp;R)</value>
+  </data>
+  <data name="Form.OptionDialog._middleButtonActionLabel">
+    <value>单击中键(&amp;M)</value>
+  </data>
+  <data name="Form.OptionDialog._wheelAmountLabel">
+    <value>鼠标每次滚动行数(&amp;W)</value>
+  </data>
+  <data name="Form.OptionDialog._viewSplitModifierLabel">
+    <value>窗体分割修饰键(&amp;P)</value>
+  </data>
+  <data name="Caption.KeysNone">
+    <value>无</value>
+  </data>
+  <data name="Form.OptionDialog._localBufferScrollModifierLabel">
+    <value>本地缓冲区滚动的修饰键(&amp;S)</value>
+  </data>
+  <data name="Form.OptionDialog._shellSupportGroup">
+    <value>脚本支持</value>
+  </data>
+  <data name="Form.OptionDialog._enableComplementForNewConnections">
+    <value>Enables shell &amp;complement by character input for new connections</value>
+  </data>
+  <data name="Form.OptionDialog._commandPopupAlwaysOnTop">
+    <value>Shows command result pop-ups on the &amp;top</value>
+  </data>
+  <data name="Form.OptionDialog._commandPopupInTaskBar">
+    <value>Shows command result pop-ups in the task ba&amp;r</value>
+  </data>
+  <data name="Form.OptionDialog._alertOnPasteNewLineCharCheck">
+    <value>粘贴后会换行时弹出提示框</value>
+  </data>
+  <data name="Form.OptionDialog._commandPanel">
+    <value>命令</value>
+  </data>
+  <data name="Form.OptionDialog._commandCategoryHeader">
+    <value>类别</value>
+  </data>
+  <data name="Form.OptionDialog._commandNameHeader">
+    <value>命令</value>
+  </data>
+  <data name="Form.OptionDialog._commandConfigHeader">
+    <value>快捷方式</value>
+  </data>
+  <data name="Form.OptionDialog._resetKeyConfigButton">
+    <value>恢复默认设置</value>
+  </data>
+  <data name="Form.OptionDialog._clearKeyConfigButton">
+    <value>清除所有设置</value>
+  </data>
+  <data name="Form.OptionDialog._commandConfigGroup">
+    <value>命令设置</value>
+  </data>
+  <data name="Form.OptionDialog._commandNameLabel">
+    <value>命令名称</value>
+  </data>
+  <data name="Form.OptionDialog._currentConfigLabel">
+    <value>当前快捷键</value>
+  </data>
+  <data name="Form.OptionDialog._newAllocationLabel">
+    <value>新快捷键</value>
+  </data>
+  <data name="Form.OptionDialog._allocateKeyButton">
+    <value>分配</value>
+  </data>
+  <data name="Form.OptionDialog._sshPanel">
+    <value>SSH</value>
+  </data>
+  <data name="Form.OptionDialog._cipherOrderGroup">
+    <value>密码算法的优先级</value>
+  </data>
+  <data name="Form.OptionDialog._algorithmOrderUp">
+    <value>上移(&amp;U)</value>
+  </data>
+  <data name="Form.OptionDialog._algorithmOrderDown">
+    <value>下移(&amp;D)</value>
+  </data>
+  <data name="Form.OptionDialog._ssh2OptionGroup">
+    <value>协议选项(仅SSH2有效)</value>
+  </data>
+  <data name="Form.OptionDialog._hostKeyLabel">
+    <value>主机密钥认证算法(&amp;H)</value>
+  </data>
+  <data name="Form.OptionDialog._hostKeyAlgorithmOrderUp">
+    <value>上移</value>
+  </data>
+  <data name="Form.OptionDialog._hostKeyAlgorithmOrderDown">
+    <value>下移</value>
+  </data>
+  <data name="Form.OptionDialog._windowSizeLabel">
+    <value>SSH通道大小</value>
+  </data>
+  <data name="Form.OptionDialog._sshMiscGroup">
+    <value>杂项</value>
+  </data>
+  <data name="Form.OptionDialog._retainsPassphrase">
+    <value>存储密码短语直到应用程序终止</value>
+  </data>
+  <data name="Form.OptionDialog._sshCheckMAC">
+    <value>
+    </value>
+  </data>检查MAC(如果关闭性能略有提升但存在安全风险)<data name="Form.OptionDialog._sshEventLog"><value>SSH协商过程保存到Poderosa事件日志中</value></data><data name="Form.OptionDialog._connectionPanel"><value>连接</value></data><data name="Form.OptionDialog._useSocks"><value>使用&amp;SOCKS5</value></data><data name="Form.OptionDialog._socksServerLabel"><value>服务器名称(&amp;N)</value></data><data name="Form.OptionDialog._socksPortLabel"><value>端口(&amp;O)</value></data><data name="Form.OptionDialog._socksAccountLabel"><value>用户名(&amp;A)</value></data><data name="Form.OptionDialog._socksPasswordLabel"><value>密码(&amp;P)</value></data><data name="Form.OptionDialog._socksNANetworksLabel"><value>排除以下SOCKS网络(举例：192.168.10.0/24)(&amp;P)</value></data><data name="Form.OptionDialog._IPv6Group"><value>IPv6</value></data><data name="Form.OptionDialog._IPv6PriorityLabel"><value>IPv4优先级(&amp;P)</value></data><data name="Form.OptionDialog._genericPanel"><value>通用</value></data><data name="Form.OptionDialog._actionOnLaunchLabel"><value>启动时执行(&amp;A)</value></data><data name="Form.OptionDialog._MRUSizeLabel"><value>记录最近的连接数量(&amp;N)</value></data><data name="Form.OptionDialog._serialCountLabel"><value>列出的串口数(&amp;P)</value></data><data name="Form.OptionDialog._showToolBar"><value>显示工具栏(&amp;B)</value></data><data name="Form.OptionDialog._showTabBar"><value>显示标签栏(&amp;T)</value></data><data name="Form.OptionDialog._showStatusBar"><value>显示状态栏(&amp;S)</value></data><data name="Form.OptionDialog._askCloseOnExit"><value>关闭活动连接时提醒(&amp;W)</value></data><data name="Form.OptionDialog._quitAppWithLastPane"><value>关闭最后一个连接时退出程序(&amp;Q)</value></data><data name="Form.OptionDialog._optionPreservePlaceLabel"><value>设置保存位置(&amp;O)</value></data><data name="Form.OptionDialog._languageLabel"><value>语言(&amp;L)</value></data><data name="Form.OptionDialog._startupOptionLabel"><value>启动时执行(&amp;S)</value></data><data name="Form.OptionDialog._fileAssociationGroup"><value>文件关联</value></data><data name="Form.OptionDialog._makeFileAssociationGts"><value>关联.gts文件</value></data><data name="Form.OptionDialog.MakeFileAssociationGtsConfirmation"><value>你确定要更改.gts文件的关联吗？</value></data><data name="Form.OptionDialog.FileAssociationFailed"><value>文件类型关联失败</value></data><data name="Form.OptionDialog.FileAssociationChanged"><value>文件类型关联成功</value></data><data name="Form.OptionDialog._tabBarGroup"><value>配置</value></data><data name="Form.OptionDialog._tabStyleLabel"><value>样式(&amp;E)</value></data><data name="Form.OptionDialog._splitterRatioBox"><value>更改大小时保留分割比率(&amp;R)</value></data><data name="Caption.OptionDialog.CaretStyle0"><value>方框</value></data><data name="Caption.OptionDialog.CaretStyle1"><value>竖线</value></data><data name="Caption.OptionDialog.CaretStyle2"><value>下划线</value></data><data name="Message.OptionDialog.InvalidPictureFile"><value>{0}是无效的图片文件</value></data><data name="Message.OptionDialog.InvalidItem"><value>值{0}无效</value></data><data name="Caption.OptionDialog.BufferLineCount"><value>缓冲区大小</value></data><data name="Caption.OptionDialog.MRUCount"><value>保存最近的连接数量</value></data><data name="Caption.OptionDialog.KeepAliveInterval"><value>心跳包保持间隔</value></data><data name="Message.OptionDialog.EmptyLogDirectory"><value>日志目录为空</value></data><data name="Message.OptionDialog.AskCreateDirectory"><value>路径{0}不存在，是否创建？</value></data><data name="Message.OptionDialog.FailedCreateDirectory"><value>创建路径失败</value></data><data name="Message.OptionDialog.AltKeyOnWin9x"><value>在Windows98/Me上左右Alt键的作用必须相同</value></data><data name="Caption.OptionDialog.MousewheelAmount"><value>鼠标滚轮每次滚动行数</value></data><data name="Message.OptionDialog.InvalidWindowSize"><value>窗体尺寸无效</value></data><data name="Message.OptionDialog.EmptySocksServer"><value>SOCKS服务器名为空</value></data><data name="Caption.OptionDialog.SOCKSPortNumber"><value>SOCKS端口号</value></data><data name="Caption.OptionDialog.NetworkAddress"><value>网络地址</value></data><data name="Caption.OptionDialog.SerialPortCount"><value>串口数量</value></data><data name="Message.OptionDialog.RegistryWriteAuthWarning"><value>The authority of registry modification is required to change storage location setting.</value></data><data name="Caption.OptionDialog.DefaultLogDirectory"><value>选择日志文件的存储位置</value></data><data name="Message.OptionDialog.AskOverwriteToASCIIInput"><value>The key {0} is used to input ASCII code {1} character. Do you give this command setting priority to the ASCII code?</value></data><data name="Message.OptionDialog.AskOverwriteCommand"><value>This key is already allocated for the command "{0}". Do you wish to overwrite?</value></data><data name="Caption.OptionDialog.ActionOnLaunch.Nothing"><value>无动作</value></data><data name="Caption.OptionDialog.ActionOnLaunch.NewConnection"><value>打开新建连接对话框</value></data><data name="Caption.OptionDialog.ActionOnLaunch.Macro"><value>Execute macro - </value></data><data name="Message.OptionDialog.InvalidAdditionalWordElement"><value>There are invalid characters as word elements.</value></data><data name="Message.OptionDialog.AskJapaneseFont"><value>If Japanese font is not installed in your computer, the window will be shown incorrectly. Do you wish to continue?</value></data><data name="Message.HostKeyChecker.AskHostKeyRegister"><value>The public key of the SSH server is not cached in ssh_known_hosts. Do you wish to register it and continue?</value></data><data name="Message.HostKeyChecker.AskHostKeyRenew"><value>The public key of the SSH server differs from the old key in ssh_known_hosts. Do you wish to renew it and continue?</value></data><data name="Menu.GenerateKeyPair"><value>SSH密钥生成向导</value></data><data name="Menu.ChangePassphrase"><value>更改私钥密码</value></data><data name="Menu.AgentKeyListDialog"><value>Agent &amp;Forwarding...</value></data><data name="Form.KeyGenWizard._confirmLabel"><value>确认</value></data><data name="Form.KeyGenWizard._passphraseLabel"><value>密码</value></data><data name="Form.KeyGenWizard._bitCountLabel"><value>位数</value></data><data name="Form.KeyGenWizard._algorithmLabel"><value>算法</value></data><data name="Form.KeyGenWizard._promptLabel1"><value>该向导用于生成SSH2认证密钥。请输入算法、位数和密码。</value></data><data name="Form.KeyGenWizard._nextButton"><value>下一步</value></data><data name="Form.KeyGenWizard._keygenLabel"><value>正在生成。请在窗口内移动鼠标来生成随机数。</value></data><data name="Form.KeyGenWizard._storePrivateKey"><value>私钥另存为</value></data><data name="Form.KeyGenWizard._storeSECSHPublicKeyButton"><value>以SECSH格式保存公钥</value></data><data name="Form.KeyGenWizard._storeOpenSSHPublicKeyButton"><value>以OpenSSH格式保存公钥</value></data><data name="Form.KeyGenWizard._completeLabel"><value>向导已完成。请在本地保存私钥，远程主机保存公钥</value></data><data name="Form.KeyGenWizard.Text"><value>SSH密钥生成向导</value></data><data name="Message.KeyGenWizard.NotMatch"><value>密码不一致</value></data><data name="Message.KeyGenWizard.ConfirmEmptyPassphrase"><value>确认生成无密码的密钥吗？</value></data><data name="Message.KeyGenWizard.Finish"><value>结束</value></data><data name="Message.KeyGenWizard.RandomNumberCompleted"><value>已获取随机数，请等待几分钟以便生成密钥。</value></data><data name="Message.KeyGenWizard.GenerationCompleted"><value>密钥已生成</value></data><data name="Caption.KeyGenWizard.SavePrivateKey"><value>保存私钥</value></data><data name="Message.KeyGenWizard.KeySaveError"><value>保存密钥失败。{0}</value></data><data name="Caption.KeyGenWizard.SavePublicInSECSH"><value>以SECSH格式保存公钥</value></data><data name="Caption.KeyGenWizard.SavePublicInOpenSSH"><value>以OpenSSH格式保存公钥</value></data><data name="Form.AgentKeyListDialog.Text"><value>Private Key List for Agent Forwarding</value></data><data name="Form.AgentKeyListDialog._filenameHeader"><value>文件名</value></data><data name="Form.AgentKeyListDialog._statusHeader"><value>状态</value></data><data name="Form.AgentKeyListDialog._commentHeader"><value>注释</value></data><data name="Form.AgentKeyListDialog._addButton"><value></value></data><data name="Form.AgentKeyListDialog._removeButton"><value>移除</value></data><data name="Form.InputPassphraseDialog.Text"><value>请输入密码</value></data><data name="Form.InputPassphraseDialog._fileNameLabel"><value>文件名</value></data><data name="Form.InputPassphraseDialog._passphraseLabel"><value>密码</value></data><data name="Form.ChangePassphrase._lKeyFile"><value>私钥文件</value></data><data name="Form.ChangePassphrase._lCurrentPassphrase"><value>当前密码</value></data><data name="Form.ChangePassphrase._lNewPassphrase"><value>新密码</value></data><data name="Form.ChangePassphrase._lNewPassphraseAgain"><value>再次输入</value></data><data name="Form.ChangePassphrase.Text"><value>更改密码</value></data><data name="Message.ChangePassphrase.PassphraseMismatch"><value>新密码不一致</value></data><data name="Message.ChangePassphrase.AskEmptyPassphrase"><value>新密码为空，你确认吗？</value></data><data name="Message.ChangePassphrase.NotifyChanged"><value>密码已更改</value></data><data name="Message.KeyAgent.FileNotExist"><value>{0} 是无效文件</value></data><data name="Caption.PreferenceEditor.Bool"><value>布尔</value></data><data name="Caption.PreferenceEditor.Int"><value>整数</value></data><data name="Caption.PreferenceEditor.String"><value>字符串</value></data><data name="Form.PreferenceEditor._nameHeader"><value>名称</value></data><data name="Form.PreferenceEditor._typeHeader"><value>类型</value></data><data name="Form.PreferenceEditor._valueHeader"><value>值</value></data><data name="Form.PreferenceEditor._filterLabel"><value>过滤器</value></data><data name="Form.PreferenceEditor._resetButton"><value>全部重置</value></data><data name="Form.PreferenceEditor.Text"><value>详细选项编辑器</value></data><data name="Command.PreferenceEditor"><value>详细选项编辑器</value></data><data name="Menu.PreferenceEditor"><value>详细选项编辑器。。。</value></data><data name="Form.PreferenceItemEditor.Text"><value>编辑条目</value></data><data name="Form.PreferenceItemEditor._nameLabel"><value>名称</value></data><data name="Form.PreferenceItemEditor._valueLabel"><value>值</value></data><data name="Form.PreferenceItemEditor._resetButton"><value>重置</value></data><data name="Form.ShellSchemeEditor.Text"><value>窗口配色编辑器</value></data><data name="Form.ShellSchemeEditor._schemeCollectionGroup"><value>窗口配色表</value></data><data name="Form.ShellSchemeEditor._deleteSchemeButton"><value>删除</value></data><data name="Form.ShellSchemeEditor._newSchemeButton"><value>新建</value></data><data name="Form.ShellSchemeEditor._schemeLabel"><value>方案</value></data><data name="Form.ShellSchemeEditor._deleteCharLabel"><value>删除一个字符</value></data><data name="Form.ShellSchemeEditor._nameLabel"><value>名称</value></data><data name="Form.ShellSchemeEditor._promptLabel"><value>提示(正则表达式)</value></data><data name="Form.ShellSchemeEditor._deleteButton"><value>删除命令</value></data><data name="Form.ShellSchemeEditor._alphabeticalSort"><value>以字母方式排序</value></data><data name="Form.ShellSchemeEditor._currentSchemeGroup"><value>方案 - {0}</value></data><data name="Form.ShellSchemeEditor._itemLabel"><value>命令列表</value></data><data name="Menu.ShellSchemeEditor"><value>窗口配色编辑器...</value></data><data name="Command.ShellSchemeEditor"><value>窗口配色编辑器</value></data><data name="Message.ShellSchemeEditor.DuplicatedName"><value>已找到重复名称</value></data><data name="Message.ShellSchemeEditor.EmptyName"><value>方法名称为空</value></data><data name="Message.ShellSchemeEditor.PromptError"><value>提示符必须是一个正确的正则表达式</value></data><data name="Enum.StartupAction.DoNothing"><value>无动作</value></data><data name="Enum.StartupAction.TelnetSSHDialog"><value>打开Telnet/SSH登陆对话框</value></data><data name="Enum.StartupAction.OpenCygwin"><value>打开Cygwin连接</value></data><data name="Message.AboutBox.EnterGuevara"><value>欢迎使用Guevara模式，它是Poderosa的旧称</value></data><data name="Message.AboutBox.ExitGuevara"><value>不使用Guevara模式</value></data><data name="Form.AboutBox.Text"><value>关于Poderosa</value></data></root>

@@ -7,133 +7,164 @@ $Id: stringresource.xml,v 1.1 2010/11/19 15:41:42 kzmi Exp $
 <record name="Common.OK">
   <ja>OK</ja>
   <en>OK</en>
+  <zh>确定</zh>
 </record>
 <record name="Common.Cancel">
   <ja>キャンセル</ja>
   <en>Cancel</en>
+  <zh>取消</zh>
 </record>
 <record name="Common.Reception">
   <ja>受信</ja>
   <en>Receive</en>
+  <zh>接收</zh>
 </record>
 <record name="Common.Transmission">
   <ja>送信</ja>
   <en>Transmit</en>
+  <zh>发送</zh>
 </record>
 
 <record name="Menu.XZModem">
   <ja>X/ZMODEM(&amp;X)...</ja>
   <en>&amp;X/ZMODEM...</en>
+  <zh>X/ZMODEM(&amp;X)...</zh>
 </record>
 <record name="Command.XZModem">
   <ja>X/ZMODEM(&amp;X)による送受信</ja>
   <en>&amp;X/ZMODEM communication</en>
+  <zh>X/ZMODEM(&amp;X)传输...</zh>
 </record>
 
 <!-- XZModemDialog.cs -->
 <record name="Form.XZModemDialog._okButton">
   <ja>開始</ja>
   <en>Start</en>
+  <zh>开始</zh>
 </record>
 <record name="Form.XZModemDialog._fileNameLabel">
   <ja>ファイル名(&amp;F)</ja>
   <en>&amp;File name</en>
+  <zh>文件名</zh>
 </record>
 <record name="Form.XZModemDialog._protocolLabel">
   <ja>プロトコル(&amp;P)</ja>
   <en>&amp;Protocol</en>
+  <zh>协议</zh>
 </record>
 <record name="Form.XZModemDialog._directionLabel">
   <ja>送信/受信(&amp;T)</ja>
   <en>&amp;Transmit/Receive</en>
+  <zh>发送/接收</zh>
 </record>
 <record name="Caption.XZModemDialog.Reception">
   <ja>ホストからの受信</ja>
   <en>Receive from the host</en>
+  <zh>从主机接收</zh>
 </record>
 <record name="Caption.XZModemDialog.Transmission">
   <ja>ホストへの送信</ja>
   <en>Send to the host</en>
+  <zh>向主机发送</zh>
 </record>
 <record name="Caption.XZModemDialog.DialogTitle">
   <ja>X/ZModem - {0}</ja>
   <en>X/ZModem - {0}</en>
+  <zh>X/ZModem - {0}</zh>
 </record>
 <record name="Caption.XZModemDialog.ReceptionFileSelect">
   <ja>保存するファイルの選択</ja>
   <en>Select file to save</en>
+  <zh>保存选择的文件</zh>
 </record>
 <record name="Caption.XZModemDialog.TransmissionFileSelect">
   <ja>送信するファイルの選択</ja>
   <en>Select file to send</en>
+  <zh>发送选择的文件</zh>
 </record>
 <record name="Caption.XZModemDialog.ReceptionProgress">
   <ja>{0} バイト受信...</ja>
   <en>Received: {0} bytes...</en>
+  <zh>已接收: {0} 字节...</zh>
 </record>
 <record name="Caption.XZModemDialog.TransmissionProgress">
   <ja>{0} バイト送信...</ja>
   <en>Sent: {0} bytes...</en>
+  <zh>已发送: {0} 字节...</zh>
 </record>
 <record name="Caption.XZModemDialog.InitialPrompt">
   <ja>ホスト側で用意ができたら開始してください。</ja>
   <en>Push "Start" after preparing the host.</en>
+  <zh>主机准备好后请点击开始</zh>
 </record>
 <record name="Caption.XZModemDialog.Negotiating">
   <ja>通信中...</ja>
   <en>Negotiating...</en>
+  <zh>通信中...</zh>
 </record>
 <record name="Caption.XZModemDialog.FileMustBeSpecified">
   <ja>ファイルを指定してください。</ja>
   <en>File must be specified.</en>
+  <zh>必须指定文件</zh>
 </record>
 
   <!-- xmodem.cs -->
 <record name="Message.XModem.ReceivingTimedOut">
   <ja>受信がタイムアウトしました。</ja>
   <en>Receiving data timed out.</en>
+  <zh>接收数据超时</zh>
 </record>
 <record name="Message.XModem.ReceiveComplete">
   <ja>受信を完了しました。</ja>
   <en>Reception completed successfully.</en>
+  <zh>接收完成</zh>
 </record>
 <record name="Message.XModem.SendComplete">
   <ja>送信が完了しました。</ja>
   <en>Transmission completed successfully.</en>
+  <zh>发送完成</zh>
 </record>
 <record name="Message.XModem.NoResponse">
   <ja>応答がありません。中止します。</ja>
   <en>No response from peer. Aborted.</en>
+  <zh>无响应。已停止</zh>
 </record>
 <record name="Message.XModem.CouldNotReceiveCorrectData">
   <ja>正常なデータを受信できませんでした。中止します。</ja>
   <en>Couldn't receive correct data. Aborted.</en>
+  <zh>无法接收正确数据。已停止</zh>
 </record>
 <record name="Message.XModem.Cancelled">
   <ja>ファイル転送はキャンセルされました。</ja>
   <en>File transfter has been cancelled.</en>
+  <zh>文件传输已取消</zh>
 </record>
 
   <!-- zmodem.cs -->
 <record name="Message.ZModem.CRCError">
   <ja>CRCエラー。</ja>
   <en>CRC Error.</en>
+  <zh>CRC错误</zh>
 </record>
 <record name="Message.ZModem.BufferFull">
   <ja>バッファが一杯です。</ja>
   <en>Buffer is full.</en>
+  <zh>缓冲区已满</zh>
 </record>
 <record name="Message.ZModem.InvalidHeader">
   <ja>不正なヘッダ。</ja>
   <en>Invalid header.</en>
+  <zh>检验头错误</zh>
 </record>
 <record name="Message.ZModem.Aborted">
   <ja>相手側から中止されました。</ja>
   <en>Aborted by peer.</en>
+  <zh>对方已中止</zh>
 </record>
 <record name="Message.ZModem.FileSkipped">
   <ja>ファイルがスキップされました。(ファイルがすでに存在しているかもしれません)</ja>
   <en>File has been skipped. (Maybe file already exists)</en>
+  <zh>文件已跳过。(可能文件已存在)</zh>
 </record>
 
 </string-resource>
