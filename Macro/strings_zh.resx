@@ -1,0 +1,158 @@
+﻿<root>
+  <resheader name="ResMimeType">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="Version">
+    <value>1.0.0.0</value>
+  </resheader>
+  <resheader name="Reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=1.0.3102.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="Writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=1.0.3102.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Common.OK">
+    <value>确定</value>
+  </data>
+  <data name="Common.Cancel">
+    <value>取消</value>
+  </data>
+  <data name="Menu.Macro">
+    <value>宏</value>
+  </data>
+  <data name="Menu.MacroList">
+    <value>环境设置</value>
+  </data>
+  <data name="Menu._menuStopMacro">
+    <value>停止执行宏</value>
+  </data>
+  <data name="Command.MacroList">
+    <value>显示宏配置对话框</value>
+  </data>
+  <data name="Command.StopMacro">
+    <value>停止执行宏</value>
+  </data>
+  <data name="Message.MacroEnv.WidthIsOutOfRange">
+    <value>宽度必须在1~255间</value>
+  </data>
+  <data name="Message.MacroEnv.HeightIsOutOfRange">
+    <value>高度必须在1~255间</value>
+  </data>
+  <data name="Message.MacroEnv.ShellExecuteError">
+    <value>执行脚本失败：{0} - {1}</value>
+  </data>
+  <data name="Message.MacroEnv.ExecError">
+    <value>执行{0}时失败，请检查程序名称和路径</value>
+  </data>
+  <data name="Message.MacroExec.MissingAssemblies">
+    <value>缺少一些必需的程序集</value>
+  </data>
+  <data name="Message.MacroExec.FailedToCompileScript">
+    <value>编译脚本失败</value>
+  </data>
+  <data name="Message.MacroExec.ExceptionWithoutTraceWindow">
+    <value>运行宏时抛出异常。
+[{0}]
+
+如果需要查看详细异常信息，请设置宏配置中的追踪窗口显示选项，并重新运行宏</value>
+  </data>
+  <data name="Message.MacroExec.ExceptionInMacro">
+    <value>运行宏时抛出异常</value>
+  </data>
+  <data name="Form.MacroList._titleHeader">
+    <value>标题</value>
+  </data>
+  <data name="Form.MacroList._pathHeader">
+    <value>路径</value>
+  </data>
+  <data name="Form.MacroList._shortCutHeader">
+    <value>快捷方式</value>
+  </data>
+  <data name="Form.MacroList._infoHeader">
+    <value>信息</value>
+  </data>
+  <data name="Form.MacroList._runButton">
+    <value>运行(&amp;E)</value>
+  </data>
+  <data name="Form.MacroList._stopButton">
+    <value>停止(&amp;S)</value>
+  </data>
+  <data name="Form.MacroList._propButton">
+    <value>属性(&amp;P)</value>
+  </data>
+  <data name="Form.MacroList._downButton">
+    <value>↓</value>
+  </data>
+  <data name="Form.MacroList._upButton">
+    <value>↑</value>
+  </data>
+  <data name="Form.MacroList._addButton">
+    <value>新建...(&amp;N)</value>
+  </data>
+  <data name="Form.MacroList._deleteButton">
+    <value>移除(&amp;R)</value>
+  </data>
+  <data name="Form.MacroList._environmentButton">
+    <value>环境变量...(&amp;V)</value>
+  </data>
+  <data name="Form.MacroList.Text">
+    <value>宏</value>
+  </data>
+  <data name="Caption.MacroList.Trace">
+    <value>追踪</value>
+  </data>
+  <data name="Message.MacroModule.AlreadyRunning">
+    <value>已有一个宏在运行</value>
+  </data>
+  <data name="Message.MacroModule.NoEntryPoint">
+    <value>没有找到程序集的入口点</value>
+  </data>
+  <data name="Message.MacroModule.UnknownModuleType">
+    <value>未知的宏类型</value>
+  </data>
+  <data name="Caption.MacroModule.SampleTitleHelloWorld">
+    <value>示例 - Hello World</value>
+  </data>
+  <data name="Caption.MacroModule.SampleTitleAutoTelnet">
+    <value>示例 - Telnet自动登陆</value>
+  </data>
+  <data name="Caption.MacroModule.SampleTitleOpenBashrc">
+    <value>示例 - 打开~/.bashrc</value>
+  </data>
+  <data name="Message.MacroPlugin.AnotherMacroIsRunningInThisSession">
+    <value>会话中正在运行宏</value>
+  </data>
+  <data name="Caption.MacroTrace.Title">
+    <value>宏追踪窗口 - </value>
+  </data>
+  <data name="Form.ModuleProperty._titleLabel">
+    <value>标题(&amp;T)</value>
+  </data>
+  <data name="Form.ModuleProperty._pathLabel">
+    <value>文件(&amp;F)</value>
+  </data>
+  <data name="Form.ModuleProperty._additionalAssemblyLabel">
+    <value>添加的程序集(&amp;A)</value>
+  </data>
+  <data name="Form.ModuleProperty._shortcutLabel">
+    <value>快捷方式(&amp;S)</value>
+  </data>
+  <data name="Form.ModuleProperty._debugOption">
+    <value>执行宏时打开追踪窗口(&amp;W)</value>
+  </data>
+  <data name="Form.ModuleProperty.Text">
+    <value>宏属性</value>
+  </data>
+  <data name="Caption.ModuleProperty.SelectMacroFile">
+    <value>选择宏文件</value>
+  </data>
+  <data name="Message.ModuleProperty.FileNotExist">
+    <value>文件 {0} 不存在</value>
+  </data>
+  <data name="Message.ModuleProperty.TooLongTitle">
+    <value>宏的标题应小于30个字符</value>
+  </data>
+  <data name="Message.ModuleProperty.DuplicatedKey">
+    <value>关键字已分配给\"{0}\"</value>
+  </data>
+</root>

@@ -1,106 +1,127 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <string-resource>
 
-<record name=Common.Cancel>
+<record name="Common.Cancel">
   <ja>キャンセル</ja>
   <en>Cancel</en>
+  <zh>取消</zh>
 </record>
 
-<record name=Common.OK>
+<record name="Common.OK">
   <ja>OK</ja>
   <en>OK</en>
+  <zh>确定</zh>
 </record>
 
-<record name=Enum.UseAction.Always>
+<record name="Enum.UseAction.Always">
   <ja>常に使用</ja>
   <en>Always</en>
+  <zh>保持</zh>
 </record>
 
-<record name=Enum.UseAction.NewLine>
+<record name="Enum.UseAction.NewLine">
   <ja>改行を含む場合に使用</ja>
   <en>Used if NewLine</en>
+  <zh>新行使用</zh>
 </record>
 
-<record name=Enum.UseAction.NotUse>
+<record name="Enum.UseAction.NotUse">
   <ja>使用しない</ja>
   <en>Not use</en>
+  <zh>不使用</zh>
 </record>
 
-<record name=Form.ExtendPasteDialog._confirmedCheck>
-  <ja>確認しました(&C)</ja>
-  <en>Confirmed(&C)</en>
+<record name="Form.ExtendPasteDialog._confirmedCheck">
+  <ja>確認しました(&amp;C)</ja>
+  <en>Confirmed(&amp;C)</en>
+  <zh>确认</zh>
 </record>
 
-<record name=Form.ExtendPasteDialog._findNextButton>
-  <ja>次を検索(&D)</ja>
-  <en>Next(&D)</en>
+<record name="Form.ExtendPasteDialog._findNextButton">
+  <ja>次を検索(&amp;D)</ja>
+  <en>Next(&amp;D)</en>
+  <zh>下一个</zh>
 </record>
 
-<record name=Form.ExtendPasteDialog._findPrevButton>
-  <ja>前を検索(&U)</ja>
-  <en>Prev(&U)</en>
+<record name="Form.ExtendPasteDialog._findPrevButton">
+  <ja>前を検索(&amp;U)</ja>
+  <en>Prev(&amp;U)</en>
+  <zh>上一个</zh>
 </record>
 
-<record name=Form.ExtendPasteDialog._keywordMatchLabel>
+<record name="Form.ExtendPasteDialog._keywordMatchLabel">
   <ja>強調キーワード検出数：{0}</ja>
   <en>Detect Highlight Keywords : {0}</en>
+  <zh>删除高度关键字：{0}</zh>
 </record>
 
-<record name=Form.ExtendPasteDialog._lineCountLabel>
+<record name="Form.ExtendPasteDialog._lineCountLabel">
   <ja>行数：{0}</ja>
   <en>Lines : {0}</en>
+  <zh>行数：{0}</zh>
 </record>
 
-<record name=Form.ExtendPasteDialog._messageLabel>
+<record name="Form.ExtendPasteDialog._messageLabel">
   <ja>クリップボードのデータを貼り付けますか？</ja>
   <en>Do you want to paste it ?</en>
+  <zh>确定粘贴吗？</zh>
 </record>
 
-<record name=Form.ExtendPasteDialog._newLineLabel>
+<record name="Form.ExtendPasteDialog._newLineLabel">
   <ja>改行：{0}</ja>
   <en>NewLines : {0}</en>
+  <zh>新行：{0}</zh>
 </record>
 
-<record name=Form.ExtendPasteDialog._subMessageLabel.Check>
+<record name="Form.ExtendPasteDialog._subMessageLabel.Check">
   <ja>内容確認後にチェックボックスをONにしてください</ja>
   <en>Contents see check box ON the confirmation.</en>
+  <zh>内容确认后显示确认框</zh>
 </record>
 
-<record name=Form.ExtendPasteDialog._subMessageLabel.Wait>
+<record name="Form.ExtendPasteDialog._subMessageLabel.Wait">
   <ja>貼り付けを {0} 秒後に実行します (キャンセルまたはESCキーで中断)</ja>
   <en>Paste with {0} seconds to run. (Cancel or ESC key abort)</en>
+  <zh>粘贴预计需要{0}秒(按Cancel或ESC取消)</zh>
 </record>
 
-<record name=Form.ExtendPasteDialog._targetSessionLabel>
+<record name="Form.ExtendPasteDialog._targetSessionLabel">
   <ja>対象セッション：{0}</ja>
   <en>Target Session : {0}</en>
+  <zh>目标会话：{0}</zh>
 </record>
 
-<record name=Form.ExtendPasteDialog.NewLineExist>
+<record name="Form.ExtendPasteDialog.NewLineExist">
   <ja>あり</ja>
   <en>Yes</en>
+  <zh>是</zh>
 </record>
 
-<record name=Form.ExtendPasteDialog.NewLineNotExist>
+<record name="Form.ExtendPasteDialog.NewLineNotExist">
   <ja>なし</ja>
   <en>No</en>
+  <zh>否</zh>
 </record>
 
-<record name=Form.ExtendPasteOptionPanel._afterSpecifiedTimePasteCheck>
+<record name="Form.ExtendPasteOptionPanel._afterSpecifiedTimePasteCheck">
   <ja>指定秒数経過後にペースト(0-60秒)
 (待機中はペーストキャンセル可能)</ja>
   <en>Paste after specified time elapsed (0-60sec)
 (Waiting time can cancel a paste)</en>
+  <zh>指定时间后粘贴(0-60秒)
+(等待时可取消粘贴)</zh>
 </record>
 
-<record name=Form.ExtendPasteOptionPanel._changeDialogSize>
+<record name="Form.ExtendPasteOptionPanel._changeDialogSize">
   <ja>ダイアログのサイズ変更を許可
 (クリップボートの内容を広範囲で確認したい場合に有効)</ja>
   <en>Allow change dialog size
 (Use if you want to check the contents of the clipboard in a wide range)</en>
+  <zh>允许更改对话框尺寸
+(可以用来查看剪贴板的更多内容)</zh>
 </record>
 
-<record name=Form.ExtendPasteOptionPanel._descriptionLabel>
+<record name="Form.ExtendPasteOptionPanel._descriptionLabel">
   <ja>拡張ペーストプラグインは、ペースト時にクリップボードの内容を表示するプラグインです。
 
 クリップボードのデータに指定したキーワードが含まれる場合は、該当する文字を強調表示します。
@@ -117,55 +138,74 @@ Run paste actually can paste even after the specified number of seconds has elap
 These features prevent the paste of unintended command, it will be able to prevent human error as much as possible.
 
 Also, standard paste command replaces extended paste command.</en>
+  <zh>ExtendPaste是一款用于在粘贴时查看剪贴板内容的插件。
+  
+高亮的字符包含剪贴板中指定的内容的关键字。
+可以在指定的时间后才粘贴，并且可以中途取消。
+
+这个功能可以防止粘贴板中有意外的命令，尽可能减少人为错误。
+
+当然你可以选择使用正常的粘贴命令。
+</zh>
 </record>
 
-<record name=Form.ExtendPasteOptionPanel._extendPasteOptionGroup>
+<record name="Form.ExtendPasteOptionPanel._extendPasteOptionGroup">
   <ja>拡張ペースト</ja>
   <en>Extend Paste</en>
+  <zh>扩展粘贴</zh>
 </record>
 
-<record name=Form.ExtendPasteOptionPanel._highlightKeywordLabel>
+<record name="Form.ExtendPasteOptionPanel._highlightKeywordLabel">
   <ja>強調キーワード(正規表現)</ja>
   <en>Highlight Keyword (RegEx)</en>
+  <zh>高亮关键字(正则表达式)</zh>
 </record>
 
-<record name=Form.ExtendPasteOptionPanel._showConfirmCheck>
+<record name="Form.ExtendPasteOptionPanel._showConfirmCheck">
   <ja>ダイアログ内に「確認しました」チェックボックスを表示
 (チェックをONにするまでOKボタンが有効化されない)</ja>
   <en>Show Confirmed check box in dialog
 (OK button is not enabled until you check to ON)</en>
+  <zh>在对话框中显示确认复选框
+(选中复选框才可以点击确定按键)</zh>
 </record>
 
-<record name=Form.ExtendPasteOptionPanel._useActionLabel>
+<record name="Form.ExtendPasteOptionPanel._useActionLabel">
   <ja>使用アクション</ja>
   <en>Use Action</en>
+  <zh>使用动作</zh>
 </record>
 
-<record name=Form.ExtendPasteOptionPanel.Caption>
+<record name="Form.ExtendPasteOptionPanel.Caption">
   <ja>拡張ペースト</ja>
   <en>ExtendPaste</en>
+  <zh>扩展粘贴</zh>
 </record>
 
-<record name=Message.ExtendPasteDialog.InvalidRegEx>
+<record name="Message.ExtendPasteDialog.InvalidRegEx">
   <ja>正規表現パターンの指定が正しくありません。
 {0}</ja>
   <en>The value of regular expression pattern is invalid.
 {0}</en>
+  <zh>正则表达式错误</zh>
 </record>
 
-<record name=Message.ExtendPasteOptionPanel.AfterSpecifiedTimePaste>
+<record name="Message.ExtendPasteOptionPanel.AfterSpecifiedTimePaste">
   <ja>ペースト秒数</ja>
   <en>Paste Time</en>
+  <zh>粘贴时间</zh>
 </record>
 
-<record name=Message.ExtendPasteOptionPanel.InvalidItem>
+<record name="Message.ExtendPasteOptionPanel.InvalidItem">
   <ja>{0}の指定が正しくありません。</ja>
   <en>The value of {0} is invalid.</en>
+  <zh>值{0}无效</zh>
 </record>
 
-<record name=Message.ExtendPasteOptionPanel.RegExpPettern>
+<record name="Message.ExtendPasteOptionPanel.RegExpPettern">
   <ja>強調キーワード</ja>
   <en>Highlight Keyword</en>
+  <zh>高度关键字</zh>
 </record>
 
 </string-resource>

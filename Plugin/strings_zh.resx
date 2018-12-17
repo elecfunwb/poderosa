@@ -1,0 +1,57 @@
+﻿<root>
+  <resheader name="ResMimeType">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="Version">
+    <value>1.0.0.0</value>
+  </resheader>
+  <resheader name="Reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=1.0.3102.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="Writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=1.0.3102.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="PoderosaWorld.Messages.DuplicatedMessageLoopExtension">
+    <value>拥有IGUIMessageLoop的两个插件 {0} 和 {1} 尝试同时启动，后者将被忽略。</value>
+  </data>
+  <data name="PluginManager.Messages.TypeLoadError">
+    <value>从程序集 {0} 加载类型 {1} 失败</value>
+  </data>
+  <data name="PluginManager.Messages.IPluginIsNotImplemented">
+    <value>由于没有IPlugin接口，类型 {0} 加载失败</value>
+  </data>
+  <data name="PluginManager.Messages.PluginInfoAttributeNotFound">
+    <value>由于没有PluginInfoAttribute属性，类型 {0} 加载失败</value>
+  </data>
+  <data name="PluginManager.Messages.AssemblyLoadError">
+    <value>程序集 {0} 无法加载</value>
+  </data>
+  <data name="PluginManager.Messages.BootWithoutThisPlugin">
+    <value>Poderosa将无视插件 {0}</value>
+  </data>
+  <data name="PluginManager.Messages.IDNotFound">
+    <value>由于没有指定ID，插件 {0} 将被忽略</value>
+  </data>
+  <data name="PluginManager.Messages.IDDuplication">
+    <value>由于为插件 {0} 指定的ID {1} 重复，插件将被忽略</value>
+  </data>
+  <data name="PluginManager.Messages.DependencyNotFound">
+    <value>由于插件 {0} 的依赖项 {1} 缺失，插件将被忽略</value>
+  </data>
+  <data name="PluginManager.Messages.DependencyLoopError">
+    <value>下列插件由于循环依赖而无法加载 {0}</value>
+  </data>
+  <data name="PluginManager.Messages.PluginInitializeFailed">
+    <value>插件 {0} 初始化失败</value>
+  </data>
+  <data name="PluginManager.Messages.DuplicatedExtensionPointID">
+    <value>扩展点 {0} 重复</value>
+  </data>
+  <data name="PluginManager.Messages.NewExtensionPointOutsideInit">
+    <value>当插件不处于初始化状态时尝试定义新的扩展点</value>
+  </data>
+  <data name="Message.Util.InternalError">
+    <value>发生了内部错误，请检查 {0} .
+{1}</value>
+  </data>
+</root>

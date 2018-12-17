@@ -26,12 +26,6 @@
   <data name="Enum.UseAction.NotUse">
     <value>Not use</value>
   </data>
-  <data name="Form.ExtendPasteDialog.NewLineExist">
-    <value>Yes</value>
-  </data>
-  <data name="Form.ExtendPasteDialog.NewLineNotExist">
-    <value>No</value>
-  </data>
   <data name="Form.ExtendPasteDialog._confirmedCheck">
     <value>Confirmed(&amp;C)</value>
   </data>
@@ -62,8 +56,11 @@
   <data name="Form.ExtendPasteDialog._targetSessionLabel">
     <value>Target Session : {0}</value>
   </data>
-  <data name="Form.ExtendPasteOptionPanel.Caption">
-    <value>ExtendPaste</value>
+  <data name="Form.ExtendPasteDialog.NewLineExist">
+    <value>Yes</value>
+  </data>
+  <data name="Form.ExtendPasteDialog.NewLineNotExist">
+    <value>No</value>
   </data>
   <data name="Form.ExtendPasteOptionPanel._afterSpecifiedTimePasteCheck">
     <value>Paste after specified time elapsed (0-60sec)
@@ -90,11 +87,14 @@ Also, standard paste command replaces extended paste command.</value>
     <value>Highlight Keyword (RegEx)</value>
   </data>
   <data name="Form.ExtendPasteOptionPanel._showConfirmCheck">
-    <value>Show "Confirmed" check box in dialog
+    <value>Show Confirmed check box in dialog
 (OK button is not enabled until you check to ON)</value>
   </data>
   <data name="Form.ExtendPasteOptionPanel._useActionLabel">
     <value>Use Action</value>
+  </data>
+  <data name="Form.ExtendPasteOptionPanel.Caption">
+    <value>ExtendPaste</value>
   </data>
   <data name="Message.ExtendPasteDialog.InvalidRegEx">
     <value>The value of regular expression pattern is invalid.

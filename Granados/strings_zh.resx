@@ -1,0 +1,164 @@
+﻿<root>
+  <resheader name="ResMimeType">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="Version">
+    <value>1.0.0.0</value>
+  </resheader>
+  <resheader name="Reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=1.0.3102.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="Writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=1.0.3102.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ConnectionClosed">
+    <value>连接已关闭</value>
+  </data>
+  <data name="ServerDoesntRespond">
+    <value>服务器无响应</value>
+  </data>
+  <data name="RequestedTaskIsAlreadyRunning">
+    <value>任务已经在运行</value>
+  </data>
+  <data name="HostKeyDenied">
+    <value>密钥已被拒绝</value>
+  </data>
+  <data name="AlgorithmNegotiationFailed">
+    <value>算法协商失败</value>
+  </data>
+  <data name="HostKeyAlgorithmMismatch">
+    <value>与主机密钥算法不匹配</value>
+  </data>
+  <data name="UnsupportedHostKeyAlgorithm">
+    <value>主机密钥算法不支持</value>
+  </data>
+  <data name="AlgorithmNotSupportedByServer">
+    <value>主机不支持"{1}"的"{0}"算法</value>
+  </data>
+  <data name="KeyExchangeAlgorithmNegotiationFailed">
+    <value>协商密钥交换算法失败</value>
+  </data>
+  <data name="HostKeyAlgorithmNegotiationFailed">
+    <value>协商主机密钥算法失败</value>
+  </data>
+  <data name="EncryptionAlgorithmNegotiationFailed">
+    <value>协商加密算法失败</value>
+  </data>
+  <data name="InvalidAuthenticationType">
+    <value>认证类型无效</value>
+  </data>
+  <data name="AuthenticationFailed">
+    <value>用户认证失败</value>
+  </data>
+  <data name="BrokenKeyFile">
+    <value>{0} 无效的私钥文件</value>
+  </data>
+  <data name="WrongPassphrase">
+    <value>密码错误</value>
+  </data>
+  <data name="NotSSHServer">
+    <value>目标不是一个正确的SSH服务器</value>
+  </data>
+  <data name="IncompatibleProtocolVersion">
+    <value>服务器[{0}]的协议版本与{1}匹配</value>
+  </data>
+  <data name="InvalidServerVersionFormat">
+    <value>服务器版本格式不正确：[{0}]</value>
+  </data>
+  <data name="ServerNotSupportedPassword">
+    <value>服务器不支持普通密码认证</value>
+  </data>
+  <data name="ServerNotSupportedRSA">
+    <value>服务器不支持RSA认证</value>
+  </data>
+  <data name="ServerNotSupportedX">
+    <value>服务器不支持 {0}</value>
+  </data>
+  <data name="ServerRefusedRSA">
+    <value>服务器拒绝RSA认证</value>
+  </data>
+  <data name="UnexpectedResponse">
+    <value>收到未预料到的响应 [{0}]</value>
+  </data>
+  <data name="UnexpectedEOF">
+    <value>未预料到的结束符</value>
+  </data>
+  <data name="UnsupportedPrivateKeyFormat">
+    <value>不支持的私钥格式</value>
+  </data>
+  <data name="NotValidPrivateKeyFile">
+    <value>不是一个有效的私钥文件</value>
+  </data>
+  <data name="UnsupportedAuthenticationMethod">
+    <value>私钥文件显示不支持的认证方式</value>
+  </data>
+  <data name="Reason_UnsupportedDSAKeyFormat">
+    <value>不支持的DSA格式</value>
+  </data>
+  <data name="Reason_UnsupportedProcType">
+    <value>不支持协议类型</value>
+  </data>
+  <data name="Reason_UnsupportedEncryptionType">
+    <value>不支持的加密方式</value>
+  </data>
+  <data name="OnlySingleInteractiveSessionCanBeStarted">
+    <value>只能有一个活动连接</value>
+  </data>
+  <data name="X11ForwardingRejectedFromServer">
+    <value>服务器已拒绝X11转发</value>
+  </data>
+  <data name="XauthorityFileNotFound">
+    <value>没有找到.Xauthority文件</value>
+  </data>
+  <data name="ReadingXauthorityFileFailed">
+    <value>读取.Xauthority文件失败</value>
+  </data>
+  <data name="SuitableAuthorizationInformationNotFound">
+    <value>.Xauthority文件中没有找到合适的认证信息</value>
+  </data>
+  <data name="FailedToSendMessageToXServer">
+    <value>向X服务器发送消息失败</value>
+  </data>
+  <data name="XServerDoesntRespond">
+    <value>X服务器无响应</value>
+  </data>
+  <data name="X11AuthorizationFailed">
+    <value>X11认证失败</value>
+  </data>
+  <data name="InvalidDisplayNumber">
+    <value>无效的显示数字</value>
+  </data>
+  <data name="FailedConnectXServer">
+    <value>连接X服务器时失败</value>
+  </data>
+  <data name="FailedConnectXServerWithCygwinDomainSocket">
+    <value>使用Cygwin主机协议连接X服务器时失败</value>
+  </data>
+  <data name="X11UnixDirectoryPathRequired">
+    <value>需要.X11-unix文件夹的路径</value>
+  </data>
+  <data name="DomainSocketFileNotFound">
+    <value>主机的连接文件没找到</value>
+  </data>
+  <data name="FailedToReadDomainSocketFile">
+    <value>读取主机连接文件时失败</value>
+  </data>
+  <data name="FailedToOpenCygwinDomainSocket">
+    <value>打开Cygwin的主机连接时失败</value>
+  </data>
+  <data name="UnsupportedEllipticCurveInKeyPair">
+    <value>只能有一个活动连接</value>
+  </data>
+  <data name="UnsupportedEllipticCurve">
+    <value>不支持的椭圆曲线</value>
+  </data>
+  <data name="KeysAreBroken">
+    <value>密钥已损坏</value>
+  </data>
+  <data name="InvalidECPublicKey">
+    <value>无效的椭圆曲线公钥</value>
+  </data>
+  <data name="FailedSigning">
+    <value>签名失败</value>
+  </data>
+</root>

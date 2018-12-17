@@ -6,201 +6,251 @@ $Id: stringresource.xml,v 1.4 2011/05/01 15:28:52 kzmi Exp $
   <record name="ConnectionClosed">
     <en>Connection closed.</en>
     <ja>接続が切断しました。</ja>
+    <zh>连接已关闭</zh>
   </record>
   <record name="ServerDoesntRespond">
     <en>Server doesn't respond.</en>
     <ja>サーバから応答がありません。</ja>
+    <zh>服务器无响应</zh>
   </record>
   <record name="RequestedTaskIsAlreadyRunning">
     <en>The requested task is already running.</en>
     <ja>要求されたタスクは実行中です。</ja>
+    <zh>任务已经在运行</zh>
   </record>
   <record name="HostKeyDenied">
     <en>Host key has been denied.</en>
     <ja>ホスト鍵を拒否しました。</ja>
+    <zh>密钥已被拒绝</zh>
   </record>
   <record name="AlgorithmNegotiationFailed">
     <en>Algorithm negotiation failed.</en>
     <ja>アルゴリズムネゴシエーションに失敗しました。</ja>
+    <zh>算法协商失败</zh>
   </record>
   <record name="HostKeyAlgorithmMismatch">
     <en>Host key algorithm mismatch.</en>
     <ja>ホスト鍵のアルゴリズムが一致ません。</ja>
+    <zh>与主机密钥算法不匹配</zh>
   </record>
   <record name="UnsupportedHostKeyAlgorithm">
     <en>Unsupported host key algorithm.</en>
     <ja>サポートしていないホスト鍵のアルゴリズムです。</ja>
+    <zh>主机密钥算法不支持</zh>
   </record>
   <record name="AlgorithmNotSupportedByServer">
     <en>Algorithm "{0}" is not supported for "{1}" by the server.</en>
     <ja>サーバは"{1}"のアルゴリズム"{0}"をサポートしていません。</ja>
+    <zh>主机不支持"{1}"的"{0}"算法</zh>
   </record>
   <record name="KeyExchangeAlgorithmNegotiationFailed">
     <en>Negotiating key exchange algorithm failed.</en>
     <ja>鍵交換アルゴリズムのネゴシエーションに失敗しました。</ja>
+    <zh>协商密钥交换算法失败</zh>
   </record>
   <record name="HostKeyAlgorithmNegotiationFailed">
     <en>Negotiating host key algorithm failed.</en>
     <ja>ホスト鍵アルゴリズムのネゴシエーションに失敗しました。</ja>
+    <zh>协商主机密钥算法失败</zh>
   </record>
   <record name="EncryptionAlgorithmNegotiationFailed">
     <en>Negotiating encryption algorithm failed.</en>
     <ja>暗号化アルゴリズムのネゴシエーションに失敗しました。</ja>
+    <zh>协商加密算法失败</zh>
   </record>
   <record name="InvalidAuthenticationType">
     <en>Invalid authentication type.</en>
     <ja>認証方法が正しくありません。</ja>
+    <zh>认证类型无效</zh>
   </record>
   <record name="AuthenticationFailed">
     <en>User authentication failed.</en>
     <ja>ユーザ認証に失敗しました。</ja>
+    <zh>用户认证失败</zh>
   </record>
   <record name="BrokenKeyFile">
     <en>{0} is not valid private key file.</en>
     <ja>{0} は正しい鍵ファイルではありません。</ja>
+    <zh>{0} 无效的私钥文件</zh>
   </record>
   <record name="WrongPassphrase">
     <en>The passphrase is wrong.</en>
     <ja>パスフレーズが誤っています</ja>
+    <zh>密码错误</zh>
   </record>
   <record name="NotSSHServer">
     <en>The destination is not a correct SSH server.</en>
     <ja>接続先はSSHのサーバではありません。</ja>
+    <zh>目标不是一个正确的SSH服务器</zh>
   </record>
   <record name="IncompatibleProtocolVersion">
     <en>The protocol version of the server [{0}] is not compatible with {1}.</en>
     <ja>サーバのプロトコルバージョン [{0}] は {1} と互換性がありません。</ja>
+    <zh>服务器[{0}]的协议版本与{1}匹配</zh>
   </record>
   <record name="InvalidServerVersionFormat">
     <en>Format of server version is invalid: [{0}]</en>
     <ja>サーババージョン形式が不正: [{0}]</ja>
+    <zh>服务器版本格式不正确：[{0}]</zh>
   </record>
   <record name="ServerNotSupportedPassword">
     <en>Server does not support the plain password authentication.</en>
     <ja>サーバはパスワード認証をサポートしません。</ja>
+    <zh>服务器不支持普通密码认证</zh>
   </record>
   <record name="ServerNotSupportedRSA">
     <en>Server does not support the RSA authentication.</en>
     <ja>サーバはRSA認証をサポートしません。</ja>
+    <zh>服务器不支持RSA认证</zh>
   </record>
   <record name="ServerNotSupportedX">
     <en>Server does not support {0}.</en>
     <ja>サーバは{0}をサポートしません。</ja>
+    <zh>服务器不支持 {0}</zh>
   </record>
   <record name="ServerRefusedRSA">
     <en>Server refused the RSA authentication.</en>
     <ja>サーバはRSA認証を拒否しました。</ja>
+    <zh>服务器拒绝RSA认证</zh>
   </record>
   <record name="UnexpectedResponse">
     <en>Received unexpected response [{0}].</en>
     <ja>予期しない応答 {0} を受信しました。</ja>
+    <zh>收到未预料到的响应 [{0}]</zh>
   </record>
   <record name="UnexpectedEOF">
     <en>An unexpected end of stream is found.</en>
     <ja>予期しないストリーム終端に到達しました。</ja>
+    <zh>未预料到的结束符</zh>
   </record>
   <record name="UnsupportedPrivateKeyFormat">
     <en>Unsupported private key format.</en>
     <ja>サポートされていないプライベートキー形式です。</ja>
+    <zh>不支持的私钥格式</zh>
   </record>
   <record name="NotValidPrivateKeyFile">
     <en>Not a valid private key file.</en>
     <ja>正しいプライベートキーファイルではありません。</ja>
+    <zh>不是一个有效的私钥文件</zh>
   </record>
   <record name="UnsupportedAuthenticationMethod">
     <en>The private key file indicates unsupported authentication method.</en>
     <ja>サポートされていない認証方式のプライベートキーファイルです。</ja>
+    <zh>私钥文件显示不支持的认证方式</zh>
   </record>
   <record name="Reason_UnsupportedDSAKeyFormat">
     <en>unsupported DSA key format</en>
     <ja>サポートされないDSAキー形式</ja>
+    <zh>不支持的DSA格式</zh>
   </record>
   <record name="Reason_UnsupportedProcType">
     <en>unsupported Proc-Type</en>
     <ja>サポートされないProc-Type</ja>
+    <zh>不支持协议类型</zh>
   </record>
   <record name="Reason_UnsupportedEncryptionType">
     <en>unsupported encryption type</en>
     <ja>サポートされない暗号化方式</ja>
+    <zh>不支持的加密方式</zh>
   </record>
   <record name="OnlySingleInteractiveSessionCanBeStarted">
     <en>Only single interactive session can be started</en>
     <ja>開始できるインタラクティブセッションは一つだけです</ja>
+    <zh>只能有一个活动连接</zh>
   </record>
   <record name="X11ForwardingRejectedFromServer">
     <en>X11 forwarding has been rejected from the server.</en>
     <ja>X11フォワーディングがサーバから拒否されました。</ja>
+    <zh>服务器已拒绝X11转发</zh>
   </record>
   <record name="XauthorityFileNotFound">
     <en>.Xauthority file was not found.</en>
     <ja>.Xauthorityファイルが見つかりません。</ja>
+    <zh>没有找到.Xauthority文件</zh>
   </record>
   <record name="ReadingXauthorityFileFailed">
     <en>Reading .Xauthority file failed.</en>
     <ja>.Xauthorityファイルの読み込みに失敗しました。</ja>
+    <zh>读取.Xauthority文件失败</zh>
   </record>
   <record name="SuitableAuthorizationInformationNotFound">
     <en>The suitable authorization information was not found in the .Xauthority file.</en>
     <ja>.Xauthorityファイルに適当な認証情報が見つかりません。</ja>
+    <zh>.Xauthority文件中没有找到合适的认证信息</zh>
   </record>
   <record name="FailedToSendMessageToXServer">
     <en>Failed to send a message to the X server.</en>
     <ja>Xサーバへのメッセージ送信が失敗しました。</ja>
+    <zh>向X服务器发送消息失败</zh>
   </record>
   <record name="XServerDoesntRespond">
     <en>X server doesn't respond.</en>
     <ja>Xサーバからの応答がありません。</ja>
+    <zh>X服务器无响应</zh>
   </record>
   <record name="X11AuthorizationFailed">
     <en>X11 authorization failed.</en>
     <ja>X11認証が失敗しました。</ja>
+    <zh>X11认证失败</zh>
   </record>
   <record name="InvalidDisplayNumber">
     <en>Invalid display number.</en>
     <ja>ディスプレイ番号が不正です。</ja>
+    <zh>无效的显示数字</zh>
   </record>
   <record name="FailedConnectXServer">
     <en>Failed to connect to the X server.</en>
     <ja>Xサーバへの接続に失敗しました。</ja>
+    <zh>连接X服务器时失败</zh>
   </record>
   <record name="FailedConnectXServerWithCygwinDomainSocket">
     <en>Failed to connect to the X server with Cygwin's unix domain socket.</en>
     <ja>CygwinのUnixドメインソケットによるXサーバへの接続に失敗しました。</ja>
+    <zh>使用Cygwin主机协议连接X服务器时失败</zh>
   </record>
   <record name="X11UnixDirectoryPathRequired">
     <en>Path to the .X11-unix directory is required.</en>
     <ja>.X11-unixディレクトリのパスが必要です。</ja>
+    <zh>需要.X11-unix文件夹的路径</zh>
   </record>
   <record name="DomainSocketFileNotFound">
     <en>Domain socket file was not found.</en>
     <ja>ドメインソケットファイルが見つかりません。</ja>
+    <zh>主机的连接文件没找到</zh>
   </record>
   <record name="FailedToReadDomainSocketFile">
     <en>Failed to read the domain socket file.</en>
     <ja>ドメインソケットファイルの読み込みに失敗しました。</ja>
+    <zh>读取主机连接文件时失败</zh>
   </record>
   <record name="FailedToOpenCygwinDomainSocket">
     <en>Failed to open Cygwin's domain socket.</en>
     <ja>Cygwinドメインソケットのオープンに失敗しました。</ja>
+    <zh>打开Cygwin的主机连接时失败</zh>
   </record>
   <record name="UnsupportedEllipticCurveInKeyPair">
     <en>Unsupported elliptic curve is used for the key pair.</en>
     <ja>サポートされていない楕円曲線がキーペアに使用されています。</ja>
+    <zh>只能有一个活动连接</zh>
   </record>
   <record name="UnsupportedEllipticCurve">
     <en>Unsupported elliptic curve.</en>
     <ja>サポートされていない楕円曲線</ja>
+    <zh>不支持的椭圆曲线</zh>
   </record>
   <record name="KeysAreBroken">
     <en>Keys are broken.</en>
     <ja>キーが正しくありません。</ja>
+    <zh>密钥已损坏</zh>
   </record>
   <record name="InvalidECPublicKey">
     <en>Invalid elliptic curve public key.</en>
     <ja>楕円曲線パブリックキーが正しくありません。</ja>
+    <zh>无效的椭圆曲线公钥</zh>
   </record>
   <record name="FailedSigning">
     <en>Failed signing.</en>
     <ja>署名に失敗しました。</ja>
+    <zh>签名失败</zh>
   </record>
 </string-resource>
