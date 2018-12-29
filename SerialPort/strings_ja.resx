@@ -74,6 +74,12 @@
   <data name="Form.SerialConfig._flowControlLabel">
     <value>フロー制御(&amp;W)</value>
   </data>
+  <data name="Form.SerialConfig._transmitDelayLineLabel">
+    <value>Transmit Delay(line)</value>
+  </data>
+  <data name="Form.SerialConfig._transmitDelayCharLabel">
+    <value>Transmit Delay(char)</value>
+  </data>
   <data name="Caption.SerialConfig.Bits">
     <value>ビット</value>
   </data>

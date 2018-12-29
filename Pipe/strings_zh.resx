@@ -1,0 +1,153 @@
+﻿<root>
+  <resheader name="ResMimeType">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="Version">
+    <value>1.0.0.0</value>
+  </resheader>
+  <resheader name="Reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=1.0.3102.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="Writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=1.0.3102.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Common.OK">
+    <value>确定</value>
+  </data>
+  <data name="Common.Cancel">
+    <value>取消</value>
+  </data>
+  <data name="Common.DoNot">
+    <value>不要</value>
+  </data>
+  <data name="Common.Do">
+    <value>好的</value>
+  </data>
+  <data name="Menu.OpenPipe">
+    <value>打开管道...</value>
+  </data>
+  <data name="Command.OpenPipe">
+    <value>打开管道</value>
+  </data>
+  <data name="Form.OpenPipeDialog.Title">
+    <value>打开管道</value>
+  </data>
+  <data name="Form.OpenPipeDialog._radioButtonProcess">
+    <value>处理</value>
+  </data>
+  <data name="Form.OpenPipeDialog._radioButtonPipe">
+    <value>命名管道</value>
+  </data>
+  <data name="Form.OpenPipeDialog._groupBoxProcess">
+    <value>处理</value>
+  </data>
+  <data name="Form.OpenPipeDialog._groupBoxPipe">
+    <value>命名管道</value>
+  </data>
+  <data name="Form.OpenPipeDialog._labelExePath">
+    <value>可执行文件</value>
+  </data>
+  <data name="Form.OpenPipeDialog._labelCommandLineOptions">
+    <value>选项</value>
+  </data>
+  <data name="Form.OpenPipeDialog._labelInputPath">
+    <value>输入路径</value>
+  </data>
+  <data name="Form.OpenPipeDialog._labelOutputPath">
+    <value>输出路径</value>
+  </data>
+  <data name="Form.OpenPipeDialog._checkBoxBidirectinal">
+    <value>双向：以上路径也用于输出</value>
+  </data>
+  <data name="Form.OpenPipeDialog._buttonEnvironmentVariables">
+    <value>添加环境变量...</value>
+  </data>
+  <data name="Form.OpenPipeDialog._labelLocalEcho">
+    <value>本地回显</value>
+  </data>
+  <data name="Form.OpenPipeDialog._labelNewLine">
+    <value>新行发送</value>
+  </data>
+  <data name="Form.OpenPipeDialog._labelLogFile">
+    <value>日志文件</value>
+  </data>
+  <data name="Form.OpenPipeDialog._labelEncoding">
+    <value>编码</value>
+  </data>
+  <data name="Form.OpenPipeDialog._labelLogType">
+    <value>日志类型</value>
+  </data>
+  <data name="Form.OpenPipeDialog._labelTerminalType">
+    <value>终端类型</value>
+  </data>
+  <data name="Form.OpenPipeDialog._labelAutoExecMacroPath">
+    <value>自动运行宏</value>
+  </data>
+  <data name="Form.OpenPipeDialog.SelectExeFile.Title">
+    <value>选择可执行文件</value>
+  </data>
+  <data name="Form.OpenPipeDialog.SelectExeFile.ExeFiles">
+    <value>可执行文件</value>
+  </data>
+  <data name="Form.OpenPipeDialog.SelectExeFile.AllFiles">
+    <value>所有文件</value>
+  </data>
+  <data name="Form.OpenPipeDialog.Error.NoExePath">
+    <value>指定可执行文件</value>
+  </data>
+  <data name="Form.OpenPipeDialog.Error.NoOpenMode">
+    <value>指定打开模式(进程或管道)</value>
+  </data>
+  <data name="Form.OpenPipeDialog.Error.NoInputPath">
+    <value>输入路径(输入)</value>
+  </data>
+  <data name="Form.OpenPipeDialog.Error.NoOutputPath">
+    <value>输入路径(输出)</value>
+  </data>
+  <data name="Form.EditVariableDialog.Title">
+    <value>变量</value>
+  </data>
+  <data name="Form.EditVariableDialog._labelName">
+    <value>变量</value>
+  </data>
+  <data name="Form.EditVariableDialog._labelValue">
+    <value>值</value>
+  </data>
+  <data name="Form.EditVariableDialog.Error.NameHasIllegalCharacter">
+    <value>变量量包含非法字符</value>
+  </data>
+  <data name="Form.EditVariableDialog.Error.EnterName">
+    <value>请输入一个有效的名称</value>
+  </data>
+  <data name="Form.EditVariableDialog.Error.EnterValue">
+    <value>请输入一个值</value>
+  </data>
+  <data name="Form.EnvironmentVariablesDialog.Title">
+    <value>需要添加的环境变量</value>
+  </data>
+  <data name="Form.EnvironmentVariablesDialog._columnName">
+    <value>变量名</value>
+  </data>
+  <data name="Form.EnvironmentVariablesDialog._columnValue">
+    <value>值</value>
+  </data>
+  <data name="Form.EnvironmentVariablesDialog._labelDescription">
+    <value>值中由%符号包围的文本字符串将使用相应的环境变量展开</value>
+  </data>
+  <data name="Form.EnvironmentVariablesDialog._buttonAdd">
+    <value>添加</value>
+  </data>
+  <data name="Form.EnvironmentVariablesDialog._buttonEdit">
+    <value>编辑</value>
+  </data>
+  <data name="Form.EnvironmentVariablesDialog._buttonDelete">
+    <value>删除</value>
+  </data>
+  <data name="PipeCreator.LaunchingApplicationFailed">
+    <value>无法启动程序.
+更多信息请看日志文件.</value>
+  </data>
+  <data name="PipeCreator.OpeningPipeFailed">
+    <value>无法打开命名管道</value>
+  </data>
+</root>

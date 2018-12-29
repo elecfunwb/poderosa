@@ -54,7 +54,7 @@
     <value>保存选择的文件</value>
   </data>
   <data name="Caption.XZModemDialog.TransmissionFileSelect">
-    <value>发送选择的文件</value>
+    <value>选择发送的文件</value>
   </data>
   <data name="Caption.XZModemDialog.ReceptionProgress">
     <value>已接收: {0} 字节...</value>

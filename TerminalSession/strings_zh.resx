@@ -1,0 +1,339 @@
+﻿<root>
+  <resheader name="ResMimeType">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="Version">
+    <value>1.0.0.0</value>
+  </resheader>
+  <resheader name="Reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=1.0.3102.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="Writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=1.0.3102.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Common.OK">
+    <value>确定</value>
+  </data>
+  <data name="Common.Cancel">
+    <value>取消</value>
+  </data>
+  <data name="Common.DoNot">
+    <value>否</value>
+  </data>
+  <data name="Common.Do">
+    <value>是</value>
+  </data>
+  <data name="Caption.Disconnected">
+    <value>已断开</value>
+  </data>
+  <data name="Caption.HowToCancel">
+    <value>按ESC停止</value>
+  </data>
+  <data name="CommandCategory.Connection">
+    <value>连接</value>
+  </data>
+  <data name="Command.TelnetSSH">
+    <value>Telnet/SSH连接</value>
+  </data>
+  <data name="Command.Cygwin">
+    <value>Cygwin连接</value>
+  </data>
+  <data name="Command.TerminalReproduce">
+    <value>继续或复制连接</value>
+  </data>
+  <data name="Form.CygwinLoginDialog._homeDirectoryLabel">
+    <value>Home路径</value>
+  </data>
+  <data name="Form.CygwinLoginDialog._lMessage">
+    <value>如果无法启动终端，请重新编译CygTerm</value>
+  </data>
+  <data name="Form.CygwinLoginDialog._advancedOptionCheck">
+    <value>高级配置</value>
+  </data>
+  <data name="Form.CygwinLoginDialog._shellLabel">
+    <value>终端</value>
+  </data>
+  <data name="Form.CygwinLoginDialog.TextCygwin">
+    <value>连接Cygwin</value>
+  </data>
+  <data name="Form.CygwinLoginDialog.TextSFU">
+    <value>连接SFU</value>
+  </data>
+  <data name="Form.CygwinLoginDialog._logTypeLabel">
+    <value>日志类型</value>
+  </data>
+  <data name="Form.CygwinLoginDialog._logFileLabel">
+    <value>日志文件</value>
+  </data>
+  <data name="Form.CygwinLoginDialog._encodingLabel">
+    <value>编码</value>
+  </data>
+  <data name="Form.CygwinLoginDialog._terminalTypeLabel">
+    <value>终端类型</value>
+  </data>
+  <data name="Form.CygwinLoginDialog._cygwinDirLabel">
+    <value>Cygwin的路径(可选)</value>
+  </data>
+  <data name="Form.CygwinLoginDialog.SelectCygwinDir">
+    <value>选择Cygwin的路径</value>
+  </data>
+  <data name="Form.CygwinLoginDialog._autoExecMacroPathLabel">
+    <value>自动运行宏</value>
+  </data>
+  <data name="Message.CygwinLoginDialog.EmptyHomeDirectory">
+    <value>home文件夹为空</value>
+  </data>
+  <data name="Message.CygwinLoginDialog.EmptyShell">
+    <value>终端为空</value>
+  </data>
+  <data name="Caption.CygwinLoginDialog.ConnectingCygwin">
+    <value>连接Cygwin - 正在连接... (Ctrl+C中止)</value>
+  </data>
+  <data name="Caption.CygwinLoginDialog.ConnectingSFU">
+    <value>连接SFU - 正在连接... (Ctrl+C中止)</value>
+  </data>
+  <data name="Message.CygwinLoginDialog.ConnectionError">
+    <value>连接错误</value>
+  </data>
+  <data name="Form.LoginDialog._hostLabel">
+    <value>主机</value>
+  </data>
+  <data name="Form.LoginDialog._portLabel">
+    <value>端口</value>
+  </data>
+  <data name="Form.LoginDialog._methodLabel">
+    <value>协议</value>
+  </data>
+  <data name="Form.LoginDialog._sshGroup">
+    <value>SSH参数</value>
+  </data>
+  <data name="Form.LoginDialog._privateKeyLabel">
+    <value>密匙文件</value>
+  </data>
+  <data name="Form.LoginDialog._authenticationLabel">
+    <value>认证方法</value>
+  </data>
+  <data name="Form.LoginDialog._passphraseLabel">
+    <value>密码</value>
+  </data>
+  <data name="Form.LoginDialog._usernameLabel">
+    <value>账户</value>
+  </data>
+  <data name="Form.LoginDialog._terminalGroup">
+    <value>终端设置</value>
+  </data>
+  <data name="Form.LoginDialog._localEchoLabel">
+    <value>本地回显</value>
+  </data>
+  <data name="Form.LoginDialog._newLineLabel">
+    <value>新行</value>
+  </data>
+  <data name="Form.LoginDialog._logFileLabel">
+    <value>日志文件</value>
+  </data>
+  <data name="Form.LoginDialog._encodingLabel">
+    <value>编码</value>
+  </data>
+  <data name="Form.LoginDialog._logTypeLabel">
+    <value>日志类型</value>
+  </data>
+  <data name="Form.LoginDialog._terminalTypeLabel">
+    <value>终端类型</value>
+  </data>
+  <data name="Form.LoginDialog._autoExecMacroPathLabel">
+    <value>自动运行宏</value>
+  </data>
+  <data name="Form.LoginDialog._telnetNewLine">
+    <value>Telnet
+新行</value>
+  </data>
+  <data name="Form.LoginDialog.Text">
+    <value>新建连接</value>
+  </data>
+  <data name="Form.LoginDialog.Title">
+    <value>新建会话</value>
+  </data>
+  <data name="Form.LoginDialog._useX11ForwardingCheckBox">
+    <value>使用X11转发</value>
+  </data>
+  <data name="Form.LoginDialog._x11DisplayLabel">
+    <value>显示编号</value>
+  </data>
+  <data name="Form.LoginDialog._x11DisplayNote">
+    <value>(本地X服务器)</value>
+  </data>
+  <data name="Form.LoginDialog._x11DisplayText_ToolTip">
+    <value>显示本地X服务器编号</value>
+  </data>
+  <data name="Form.LoginDialog._x11ScreenLabel">
+    <value>屏幕编号</value>
+  </data>
+  <data name="Form.LoginDialog._x11ScreenText_ToolTip">
+    <value>X11转发中使用的屏幕编号</value>
+  </data>
+  <data name="Form.LoginDialog._x11NeedAuthCheckBox">
+    <value>X服务器要求认证</value>
+  </data>
+  <data name="Form.LoginDialog._x11XauthorityLabel">
+    <value>.Xauthority文件</value>
+  </data>
+  <data name="Form.LoginDialog._x11UseCygwinDomainSocketCheckBox">
+    <value>使用Cygwin的unix主机协议</value>
+  </data>
+  <data name="Form.LoginDialog._x11CygwinX11UnixFolderLabel">
+    <value>X11-unix文件夹</value>
+  </data>
+  <data name="Form.LoginDialog._x11CygwinX11UnixFolderExampleLabel">
+    <value>示例 C:\Cygwin\tmp\.X11-unix</value>
+  </data>
+  <data name="Form.LoginDialog._useAgentForwardingCheckBox">
+    <value>使用代理转发</value>
+  </data>
+  <data name="Form.LoginDialog._agentForwardingConfigButton">
+    <value>私匙...</value>
+  </data>
+  <data name="Message.LoginDialog.InvalidPort">
+    <value>{0}不是有效的端口号</value>
+  </data>
+  <data name="Caption.LoginDialog.SelectXauthorityFile">
+    <value>选择.Xauthority文件</value>
+  </data>
+  <data name="Caption.LoginDialog.Connecting">
+    <value>新建连接 - 连接中... (按Ctrl+C停止)</value>
+  </data>
+  <data name="Message.LoginDialog.HostIsEmpty">
+    <value>主机名为空</value>
+  </data>
+  <data name="Message.LoginDialog.KeyFileNotExist">
+    <value>私匙文件不存在</value>
+  </data>
+  <data name="Message.LoginDialog.ProtocolVersionIsNotSpecified">
+    <value>协议版本未指定</value>
+  </data>
+  <data name="Message.LoginDialog.PrivateKeyFileIsNotSpecified">
+    <value>密匙文件未指定</value>
+  </data>
+  <data name="Message.LoginDialog.X11DisplayIsNotEntered">
+    <value>没有输入X11显示编号</value>
+  </data>
+  <data name="Message.LoginDialog.InvalidX11Display">
+    <value>无效的X11显示编号</value>
+  </data>
+  <data name="Message.LoginDialog.X11ScreenIsNotEntered">
+    <value>没有输入X11屏幕编号</value>
+  </data>
+  <data name="Message.LoginDialog.InvalidX11Screen">
+    <value>无效的X11屏幕编号</value>
+  </data>
+  <data name="Message.LoginDialog.XauthorityFileIsNotSpecified">
+    <value>.Xauthority未指定</value>
+  </data>
+  <data name="Message.LoginDialog.X11UnixFolderIsNotSpecified">
+    <value>.X11-unix文件夹未指定</value>
+  </data>
+  <data name="Caption.LoginDialog.ConnectionError">
+    <value>连接错误</value>
+  </data>
+  <data name="Form.SSHShortcutLoginDialog._privateKeyLabel">
+    <value>私匙</value>
+  </data>
+  <data name="Form.SSHShortcutLoginDialog._passphraseLabel">
+    <value>密码</value>
+  </data>
+  <data name="Form.SSHShortcutLoginDialog._logFileLabel">
+    <value>日志文件</value>
+  </data>
+  <data name="Form.SSHShortcutLoginDialog._hostLabel">
+    <value>主机</value>
+  </data>
+  <data name="Form.SSHShortcutLoginDialog._methodLabel">
+    <value>连接</value>
+  </data>
+  <data name="Form.SSHShortcutLoginDialog._accountLabel">
+    <value>账户</value>
+  </data>
+  <data name="Form.SSHShortcutLoginDialog._authenticationTypeLabel">
+    <value>认证方法</value>
+  </data>
+  <data name="Form.SSHShortcutLoginDialog._encodingLabel">
+    <value>编码</value>
+  </data>
+  <data name="Form.SSHShortcutLoginDialog._logTypeLabel">
+    <value>日志类型</value>
+  </data>
+  <data name="Form.SSHShortcutLoginDialog._autoExecMacroPathLabel">
+    <value>自动运行宏</value>
+  </data>
+  <data name="Form.SSHShortcutLoginDialog.Text">
+    <value>SSH登陆</value>
+  </data>
+  <data name="Caption.SSHShortcutLoginDialog.NotStandardPort">
+    <value>(端口{0})</value>
+  </data>
+  <data name="Caption.SSHShortcutLoginDialog.Connecting">
+    <value>SSH登陆 - 连接中... (按Ctrl+C停止)</value>
+  </data>
+  <data name="Message.SSHShortcutLoginDialog.ConnectionError">
+    <value>连接错误</value>
+  </data>
+  <data name="Message.SSHShortcutLoginDialog.KeyFileNotExist">
+    <value>私匙文件不存在</value>
+  </data>
+  <data name="Menu.NewConnection">
+    <value>新建Telnet/SSH连接...</value>
+  </data>
+  <data name="Menu.SerialNewConnection">
+    <value>新建串口连接...</value>
+  </data>
+  <data name="Menu.CygwinNewConnection">
+    <value>新建Cygwin连接...</value>
+  </data>
+  <data name="Menu.SFUNewConnection">
+    <value>新建Unix服务连接</value>
+  </data>
+  <data name="Menu.ReproduceTerminal">
+    <value>复制</value>
+  </data>
+  <data name="Menu.ReviveTerminal">
+    <value>恢复</value>
+  </data>
+  <data name="Util.SelectLogFileByDialog.Caption">
+    <value>保存日志文件</value>
+  </data>
+  <data name="Util.SelectPrivateKey.Caption">
+    <value>选择私匙文件</value>
+  </data>
+  <data name="Util.SelectPicture.Caption">
+    <value>选择图片</value>
+  </data>
+  <data name="Menu.OpenShortcutFile">
+    <value>打开连接文件...</value>
+  </data>
+  <data name="Menu.SaveShortcutFile">
+    <value>保存连接文件...</value>
+  </data>
+  <data name="Message.AskCloseTerminalSession">
+    <value>到{0}的连接处于活动状态，要断开吗？</value>
+  </data>
+  <data name="Caption.OpenShortcutFile">
+    <value>打开连接文件</value>
+  </data>
+  <data name="Caption.SaveShortcutFile">
+    <value>保存连接文件</value>
+  </data>
+  <data name="Menu.OpenShortcutFile">
+    <value>打开连接文件...</value>
+  </data>
+  <data name="Menu.SaveShortcutFile">
+    <value>保存连接文件...</value>
+  </data>
+  <data name="Command.OpenShortcutFile">
+    <value>打开连接文件</value>
+  </data>
+  <data name="Command.SaveShortcutFile">
+    <value>保存连接文件</value>
+  </data>
+  <data name="Message.AskPasteNewLineChar">
+    <value>剪贴板中有换行符，继续粘贴？</value>
+  </data>
+</root>

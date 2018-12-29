@@ -134,6 +134,7 @@
     <EmbeddedResource Include="strings_ja.resx">
       <SubType>Designer</SubType>
     </EmbeddedResource>
+    <EmbeddedResource Include="strings_zh.resx" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Icon16x16.png" />

@@ -6,26 +6,32 @@ $Id: stringresource.xml,v 1.2 2011/06/19 01:56:08 kzmi Exp $
 <record name="Common.OK">
   <ja>OK</ja>
   <en>OK</en>
+  <zh>确定</zh>
 </record>
 <record name="Common.Cancel">
   <ja>キャンセル</ja>
   <en>Cancel</en>
+  <zh>取消</zh>
 </record>
 <record name="Common.Do">
   <ja>する</ja>
   <en>Yes</en>
+  <zh>是</zh>
 </record>
 <record name="Common.DoNot">
   <ja>しない</ja>
   <en>No</en>
+  <zh>否</zh>
 </record>
 <record name="Command.SerialPort">
   <ja>シリアルポート接続</ja>
   <en>Open serial port</en>
+  <zh>打开串口</zh>
 </record>
 <record name="Menu.SerialPort">
   <ja>シリアルポート接続(&amp;S)...</ja>
   <en>Open &amp;serial port</en>
+  <zh>打开串口</zh>
 </record>
 
 
@@ -33,131 +39,174 @@ $Id: stringresource.xml,v 1.2 2011/06/19 01:56:08 kzmi Exp $
 <record name="Enum.FlowControl.None">
   <ja>なし</ja>
   <en>None</en>
+  <zh>无</zh>
 </record>
 <record name="Enum.FlowControl.Xon_Xoff">
   <ja>Xon/Xoff</ja>
   <en>Xon/Xoff</en>
+  <zh>Xon/Xoff</zh>
 </record>
 <record name="Enum.FlowControl.Hardware">
   <ja>ハードウェア</ja>
   <en>Hardware</en>
+  <zh>硬件</zh>
 </record>
 <record name="Enum.Parity.NOPARITY">
   <ja>なし</ja>
   <en>None</en>
+  <zh>无</zh>
 </record>
 <record name="Enum.Parity.ODDPARITY">
   <ja>奇数</ja>
   <en>Odd</en>
+  <zh>奇数</zh>
 </record>
 <record name="Enum.Parity.EVENPARITY">
   <ja>偶数</ja>
   <en>Even</en>
+  <zh>偶数</zh>
 </record>
 <record name="Enum.StopBits.ONESTOPBIT">
   <ja>1ビット</ja>
   <en>1 bit</en>
+  <zh>1位</zh>
 </record>
 <record name="Enum.StopBits.ONE5STOPBITS">
   <ja>1.5ビット</ja>
   <en>1.5 bits</en>
+  <zh>1.5位</zh>
 </record>
 <record name="Enum.StopBits.TWOSTOPBITS">
   <ja>2ビット</ja>
   <en>2 bits</en>
+  <zh>2位</zh>
 </record>
 
 <!-- SerialConfig.cs -->
 <record name="Form.SerialConfig._portLabel">
   <ja>ポート(&amp;P)</ja>
   <en>&amp;Port</en>
+  <zh>端口</zh>
 </record>
 <record name="Form.SerialConfig._baudRateLabel">
   <ja>ボーレート(&amp;B)</ja>
   <en>&amp;Baud rate</en>
+  <zh>波特率</zh>
 </record>
 <record name="Form.SerialConfig._dataBitsLabel">
   <ja>データ(&amp;D)</ja>
   <en>&amp;Data</en>
+  <zh>数据位</zh>
 </record>
 <record name="Form.SerialConfig._parityLabel">
   <ja>パリティ(&amp;A)</ja>
   <en>P&amp;arity</en>
+  <zh>奇偶校验</zh>
 </record>
 <record name="Form.SerialConfig._stopBitsLabel">
   <ja>ストップビット(&amp;S)</ja>
   <en>&amp;Stop bits</en>
+  <zh>停止位</zh>
 </record>
 <record name="Form.SerialConfig._flowControlLabel">
   <ja>フロー制御(&amp;W)</ja>
   <en>Flo&amp;w control</en>
+  <zh>流控制</zh>
+</record>
+<record name="Form.SerialConfig._transmitDelayLineLabel">
+  <ja>Transmit Delay(line)</ja>
+  <en>Transmit Delay(line)</en>
+  <zh>发送延迟(行)</zh>
+</record>
+<record name="Form.SerialConfig._transmitDelayCharLabel">
+  <ja>Transmit Delay(char)</ja>
+  <en>Transmit Delay(char)</en>
+  <zh>发送延迟(字符)</zh>
 </record>
 <record name="Caption.SerialConfig.Bits">
   <ja>ビット</ja>
   <en>bits</en>
+  <zh>位</zh>
 </record>
 <record name="Form.SerialConfig.Text">
   <ja>シリアルポートの設定</ja>
   <en>Serial port configuration</en>
+  <zh>串口设置</zh>
 </record>
 
 <!-- SerialLoginDialog.cs -->
 <record name="Form.SerialLoginDialog._serialGroup">
   <ja>シリアルポート</ja>
   <en>Serial port</en>
+  <zh>串口</zh>
 </record>
 <record name="Form.SerialLoginDialog._terminalGroup">
   <ja>ターミナル</ja>
   <en>Terminal settings</en>
+  <zh>终端设置</zh>
 </record>
 <record name="Form.SerialLoginDialog.Text">
   <ja>新規シリアル接続</ja>
   <en>New serial connection</en>
+  <zh>新建串口连接</zh>
 </record>
 <record name="Form.SerialLoginDialog._localEchoLabel">
   <ja>ローカルエコー(&amp;O)</ja>
   <en>Local ech&amp;o</en>
+  <zh>本地回显</zh>
 </record>
 <record name="Form.SerialLoginDialog._newLineLabel">
   <ja>改行の送信(&amp;N)</ja>
   <en>&amp;New line</en>
+  <zh>发送新行</zh>
 </record>
 <record name="Form.SerialLoginDialog._logFileLabel">
   <ja>ログの保存先(&amp;F)</ja>
   <en>Log &amp;file</en>
+  <zh>日志文件</zh>
 </record>
 <record name="Form.SerialLoginDialog._encodingLabel">
   <ja>エンコーディング(&amp;E)</ja>
   <en>&amp;Encoding</en>
+  <zh>编码</zh>
 </record>
 <record name="Form.SerialLoginDialog._logTypeLabel">
   <ja>ログの種別(&amp;L)</ja>
   <en>&amp;Log type</en>
+  <zh>日志类型</zh>
 </record>
 <record name="Form.SerialLoginDialog._autoExecMacroPathLabel">
   <ja>自動開始マクロ</ja>
   <en>Auto Exec Macro</en>
+  <zh>自动运行宏</zh>
 </record>
 
 <record name="Message.CommunicationUtil.FailedToOpenSerial">
   <ja>シリアルポートのオープンに失敗しました。</ja>
   <en>Failed to open the serial port.</en>
+  <zh>打开串口失败</zh>
 </record>
 <record name="Message.NoSuchDevice">
   <ja>
 存在しないデバイスが選択されました。</ja>
   <en>
 Nonexistent device is selected.</en>
+  <zh>
+选择的设备不存在
+  </zh>
 </record>
 <record name="Message.DeviceIsBusy">
   <ja>
 ポートは既に別のアプリケーションに使われています。</ja>
   <en>
 The port is already used by other applications.</en>
+  <zh>
+端口已被占用</zh>
 </record>
 <record name="Message.FailedToConfigSerial">
   <ja>シリアルポートの設定に失敗しました。</ja>
   <en>Failed to configure serial port.</en>
+  <zh>配置串口失败</zh>
 </record>
 
 

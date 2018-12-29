@@ -87,8 +87,8 @@ namespace Poderosa.SerialPort {
             this._parityLabel.Text = sr.GetString("Form.SerialConfig._parityLabel");
             this._stopBitsLabel.Text = sr.GetString("Form.SerialConfig._stopBitsLabel");
             this._flowControlLabel.Text = sr.GetString("Form.SerialConfig._flowControlLabel");
-            this._transmitDelayPerLineLabel.Text = "Transmit Delay(line)";
-            this._transmitDelayPerCharLabel.Text = "Transmit Delay(char)";
+            this._transmitDelayPerLineLabel.Text = sr.GetString("Form.SerialConfig._transmitDelayLineLabel");
+            this._transmitDelayPerCharLabel.Text = sr.GetString("Form.SerialConfig._transmitDelayCharLabel");
             string bits = sr.GetString("Caption.SerialConfig.Bits");
             this._parityBox.Items.AddRange(EnumListItem<Parity>.GetListItems());
             this._dataBitsBox.Items.AddRange(new object[] {

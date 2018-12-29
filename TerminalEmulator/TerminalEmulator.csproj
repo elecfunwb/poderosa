@@ -69,9 +69,7 @@
     <Compile Include="CharDecoder.cs" />
     <Compile Include="CommandResultEx.cs" />
     <Compile Include="CommandResultPopup.cs" />
-    <Compile Include="CommandResultPopupSession.cs">
-      <SubType>Component</SubType>
-    </Compile>
+    <Compile Include="CommandResultPopupSession.cs" />
     <Compile Include="Encoding.cs" />
     <Compile Include="GEnv.cs" />
     <Compile Include="IntelliSense.cs" />
@@ -132,6 +130,7 @@
     <EmbeddedResource Include="strings_ja.resx">
       <SubType>Designer</SubType>
     </EmbeddedResource>
+    <EmbeddedResource Include="strings_zh.resx" />
     <EmbeddedResource Include="WarningWithDisableOption.resx">
       <SubType>Designer</SubType>
       <DependentUpon>WarningWithDisableOption.cs</DependentUpon>

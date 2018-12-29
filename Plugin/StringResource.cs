@@ -80,6 +80,8 @@ namespace Poderosa {
                 _resourceManager = new ResourceManager(_resourceName + "_zh", _assembly);
             else
                 _resourceManager = new ResourceManager(_resourceName, _assembly);
+
+            System.Diagnostics.Debug.Print(_resourceName);
         }
 
 

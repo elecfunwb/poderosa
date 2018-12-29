@@ -140,11 +140,19 @@ namespace Poderosa.Forms {
 
         private Language GetNativeLanguage() {
             IPoderosaCulture c = WindowManagerPlugin.Instance.PoderosaWorld.Culture;
-            return c.InitialCulture.Name.StartsWith("ja") ? Language.Japanese : Language.English;
+            //return c.InitialCulture.Name.StartsWith("ja") ? Language.Japanese : Language.English;
+            if (c.InitialCulture.Name.StartsWith("ja"))
+                return Language.Japanese;
+            else if (c.InitialCulture.Name.StartsWith("zh"))
+                return Language.Chinese;
+            else
+                return Language.English;
         }
         public static CultureInfo LangToCulture(Language lang) {
             if (lang == Language.Japanese)
                 return CultureInfo.GetCultureInfo("ja-JP");
+            else if (lang == Language.Chinese)
+                return CultureInfo.GetCultureInfo("zh-CN");
             else
                 return CultureInfo.InvariantCulture;
         }

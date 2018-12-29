@@ -7,29 +7,35 @@ $Id: stringresource.xml,v 1.1 2011/08/04 15:28:58 kzmi Exp $
 <record name="Common.OK">
   <ja>OK</ja>
   <en>OK</en>
+  <zh>确定</zh>
 </record>
 <record name="Common.Cancel">
   <ja>キャンセル</ja>
   <en>Cancel</en>
+  <zh>取消</zh>
 </record>
 <record name="Common.DoNot">
   <ja>しない</ja>
   <en>Don't</en>
+  <zh>不要</zh>
 </record>
 <record name="Common.Do">
   <ja>する</ja>
   <en>Do</en>
+  <zh>好的</zh>
 </record>
 
 <!-- Menu -->
 <record name="Menu.OpenPipe">
   <ja>パイプを開く...</ja>
   <en>Open pipe...</en>
+  <zh>打开管道...</zh>
 </record>
 
 <record name="Command.OpenPipe">
   <ja>パイプを開く</ja>
   <en>Open pipe</en>
+  <zh>打开管道</zh>
 </record>
 
 
@@ -37,161 +43,199 @@ $Id: stringresource.xml,v 1.1 2011/08/04 15:28:58 kzmi Exp $
 <record name="Form.OpenPipeDialog.Title">
   <ja>パイプを開く</ja>
   <en>Open pipe</en>
+  <zh>打开管道</zh>
 </record>
 <record name="Form.OpenPipeDialog._radioButtonProcess">
   <ja>プロセス</ja>
   <en>Process</en>
+  <zh>处理</zh>
 </record>
 <record name="Form.OpenPipeDialog._radioButtonPipe">
   <ja>名前付きパイプ</ja>
   <en>Named pipe</en>
+  <zh>命名管道</zh>
 </record>
 
 <record name="Form.OpenPipeDialog._groupBoxProcess">
   <ja>プロセス</ja>
   <en>Process</en>
+  <zh>处理</zh>
 </record>
 <record name="Form.OpenPipeDialog._groupBoxPipe">
   <ja>名前付きパイプ</ja>
   <en>Named pipe</en>
+  <zh>命名管道</zh>
 </record>
 <record name="Form.OpenPipeDialog._labelExePath">
   <ja>実行ファイル</ja>
   <en>Executable file</en>
+  <zh>可执行文件</zh>
 </record>
 <record name="Form.OpenPipeDialog._labelCommandLineOptions">
   <ja>オプション</ja>
   <en>Options</en>
+  <zh>选项</zh>
 </record>
 <record name="Form.OpenPipeDialog._labelInputPath">
   <ja>パス (入力側)</ja>
   <en>Path (Input)</en>
+  <zh>输入路径</zh>
 </record>
 <record name="Form.OpenPipeDialog._labelOutputPath">
   <ja>パス (出力側)</ja>
   <en>Path (Output)</en>
+  <zh>输出路径</zh>
 </record>
 <record name="Form.OpenPipeDialog._checkBoxBidirectinal">
   <ja>双方向: 上のパスは出力にも使用されます</ja>
   <en>Bidirectional: Above path is used also for output.</en>
+  <zh>双向：以上路径也用于输出</zh>
 </record>
 <record name="Form.OpenPipeDialog._buttonEnvironmentVariables">
   <ja>環境変数の追加...</ja>
   <en>Add environment variables...</en>
+  <zh>添加环境变量...</zh>
 </record>
 <record name="Form.OpenPipeDialog._labelLocalEcho">
   <ja>ローカルエコー(&amp;O)</ja>
   <en>Local ech&amp;o</en>
+  <zh>本地回显</zh>
 </record>
 <record name="Form.OpenPipeDialog._labelNewLine">
   <ja>改行の送信(&amp;N)</ja>
   <en>&amp;New Line</en>
+  <zh>新行发送</zh>
 </record>
 <record name="Form.OpenPipeDialog._labelLogFile">
   <ja>ログの保存先(&amp;F)</ja>
   <en>Log &amp;File</en>
+  <zh>日志文件</zh>
 </record>
 <record name="Form.OpenPipeDialog._labelEncoding">
   <ja>エンコーディング(&amp;E)</ja>
   <en>&amp;Encoding</en>
+  <zh>编码</zh>
 </record>
 <record name="Form.OpenPipeDialog._labelLogType">
   <ja>ログの種別(&amp;L)</ja>
   <en>&amp;Log type</en>
+  <zh>日志类型</zh>
 </record>
 <record name="Form.OpenPipeDialog._labelTerminalType">
   <ja>種類(&amp;Y)</ja>
   <en>Terminal T&amp;ype</en>
+  <zh>终端类型</zh>
 </record>
 <record name="Form.OpenPipeDialog._labelAutoExecMacroPath">
   <ja>自動開始マクロ</ja>
   <en>Auto Exec Macro</en>
+  <zh>自动运行宏</zh>
 </record>
 
 <record name="Form.OpenPipeDialog.SelectExeFile.Title">
   <ja>実行ファイルを選択</ja>
   <en>Select executable file</en>
+  <zh>选择可执行文件</zh>
 </record>
 <record name="Form.OpenPipeDialog.SelectExeFile.ExeFiles">
   <ja>実行ファイル</ja>
   <en>Executable files</en>
+  <zh>可执行文件</zh>
 </record>
 <record name="Form.OpenPipeDialog.SelectExeFile.AllFiles">
   <ja>すべてのファイル</ja>
   <en>All files</en>
+  <zh>所有文件</zh>
 </record>
 
 <record name="Form.OpenPipeDialog.Error.NoExePath">
   <ja>実行ファイルを指定してください。</ja>
   <en>Specify an executable file.</en>
+  <zh>指定可执行文件</zh>
 </record>
 <record name="Form.OpenPipeDialog.Error.NoOpenMode">
   <ja>開くモードを指定してください (プロセスか名前付きパイプ)。</ja>
   <en>Specify open mode (Process or Pipe).</en>
+  <zh>指定打开模式(进程或管道)</zh>
 </record>
 <record name="Form.OpenPipeDialog.Error.NoInputPath">
   <ja>パス(入力側)を入力してください。</ja>
   <en>Enter a path (input).</en>
+  <zh>输入路径(输入)</zh>
 </record>
 <record name="Form.OpenPipeDialog.Error.NoOutputPath">
   <ja>パス(出力側)を入力してください。</ja>
   <en>Enter a path (output).</en>
+  <zh>输入路径(输出)</zh>
 </record>
 
 <!-- EditVariableDialog.cs -->
 <record name="Form.EditVariableDialog.Title">
   <ja>変数</ja>
   <en>Variable</en>
+  <zh>变量</zh>
 </record>
 <record name="Form.EditVariableDialog._labelName">
   <ja>変数名</ja>
   <en>Name</en>
+  <zh>变量</zh>
 </record>
 <record name="Form.EditVariableDialog._labelValue">
   <ja>値</ja>
   <en>Value</en>
+  <zh>值</zh>
 </record>
 <record name="Form.EditVariableDialog.Error.NameHasIllegalCharacter">
   <ja>変数名に使用できない文字が含まれています。</ja>
   <en>Variable name has an illegal letter.</en>
+  <zh>变量量包含非法字符</zh>
 </record>
 <record name="Form.EditVariableDialog.Error.EnterName">
   <ja>変数名を入力してください。</ja>
   <en>Enter a variable name.</en>
+  <zh>请输入一个有效的名称</zh>
 </record>
 <record name="Form.EditVariableDialog.Error.EnterValue">
   <ja>値を入力してください。</ja>
   <en>Enter a value.</en>
+  <zh>请输入一个值</zh>
 </record>
 
 <!-- EnvironmentVariablesDialog.cs -->
 <record name="Form.EnvironmentVariablesDialog.Title">
   <ja>追加する環境変数</ja>
   <en>Environment variables to add</en>
+  <zh>需要添加的环境变量</zh>
 </record>
 <record name="Form.EnvironmentVariablesDialog._columnName">
   <ja>変数名</ja>
   <en>Name</en>
+  <zh>变量名</zh>
 </record>
 <record name="Form.EnvironmentVariablesDialog._columnValue">
   <ja>値</ja>
   <en>Value</en>
+  <zh>值</zh>
 </record>
 <record name="Form.EnvironmentVariablesDialog._labelDescription">
   <ja>変数値の中の%で括られた文字列は、対応する環境変数で展開されます。</ja>
   <en>A text string enclosed by % symbols in a value will be expanded using the corresponding environment variable.</en>
+  <zh>值中由%符号包围的文本字符串将使用相应的环境变量展开</zh>
 </record>
 <record name="Form.EnvironmentVariablesDialog._buttonAdd">
   <ja>追加(&amp;A)...</ja>
   <en>&amp;Add...</en>
+  <zh>添加</zh>
 </record>
 <record name="Form.EnvironmentVariablesDialog._buttonEdit">
   <ja>編集(&amp;E)...</ja>
   <en>&amp;Edit...</en>
+  <zh>编辑</zh>
 </record>
 <record name="Form.EnvironmentVariablesDialog._buttonDelete">
   <ja>削除(&amp;D)</ja>
   <en>&amp;Delete</en>
+  <zh>删除</zh>
 </record>
 
 
@@ -199,10 +243,12 @@ $Id: stringresource.xml,v 1.1 2011/08/04 15:28:58 kzmi Exp $
 <record name="PipeCreator.LaunchingApplicationFailed">
   <ja>アプリケーションが起動できません。&#13;&#10;より詳しいエラー情報はログを確認してください。</ja>
   <en>Could not launch the application.&#13;&#10;See the log file for more information of the error.</en>
+  <zh>无法启动程序.&#13;&#10;更多信息请看日志文件.</zh>
 </record>
 <record name="PipeCreator.OpeningPipeFailed">
   <ja>名前付きパイプをオープンできません。&#13;&#10;より詳しいエラー情報はログを確認してください。</ja>
   <en>Could not open the named pipe.&#13;&#10;See the log file for more information of the error.</en>
+  <zh>无法打开命名管道</zh>
 </record>
 
 

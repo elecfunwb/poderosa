@@ -185,6 +185,7 @@
     <EmbeddedResource Include="strings_ja.resx">
       <SubType>Designer</SubType>
     </EmbeddedResource>
+    <EmbeddedResource Include="strings_zh.resx" />
     <EmbeddedResource Include="TelnetSSHLoginDialog.resx">
       <SubType>Designer</SubType>
       <DependentUpon>TelnetSSHLoginDialog.cs</DependentUpon>

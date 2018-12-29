@@ -12,132 +12,132 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=1.0.3102.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="Common.OK">
-    <value>OK</value>
+    <value>确定</value>
   </data>
   <data name="Common.Cancel">
-    <value>キャンセル</value>
+    <value>取消</value>
   </data>
   <data name="Message.SSHConnector.Cancelled">
-    <value>接続を中止しました。</value>
+    <value>停止连接</value>
   </data>
   <data name="Form.CygwinLoginDialog._homeDirectoryLabel">
-    <value>ホームディレクトリ(&amp;H)</value>
+    <value>Home路径</value>
   </data>
   <data name="Form.CygwinLoginDialog._lMessage">
-    <value>シェルがうまく起動できないときはCygTermをコンパイルしなおしてください。</value>
+    <value>如果无法启动命令行，请重新编译CygTerm</value>
   </data>
   <data name="Form.CygwinLoginDialog._advancedOptionCheck">
-    <value>高度な設定(&amp;A)</value>
+    <value>高级选项</value>
   </data>
   <data name="Form.CygwinLoginDialog._shellLabel">
-    <value>シェル(&amp;S)</value>
+    <value>命令行</value>
   </data>
   <data name="Form.CygwinLoginDialog.TextCygwin">
-    <value>cygwinへの接続</value>
+    <value>连接cygwin</value>
   </data>
   <data name="Form.CygwinLoginDialog.TextSFU">
-    <value>SFUへの接続</value>
+    <value>连接SFU</value>
   </data>
   <data name="Form.CygwinLoginDialog._logTypeLabel">
-    <value>ログの種別(&amp;T)</value>
+    <value>日志类型</value>
   </data>
   <data name="Form.CygwinLoginDialog._logFileLabel">
-    <value>ログの保存先(&amp;L)</value>
+    <value>日志文件</value>
   </data>
   <data name="Message.CygwinLoginDialog.EmptyHomeDirectory">
-    <value>ホームディレクトリが入力されていません。</value>
+    <value>Home路径为空</value>
   </data>
   <data name="Message.CygwinLoginDialog.EmptyShell">
-    <value>シェルが入力されていません。</value>
+    <value>命令行为空</value>
   </data>
   <data name="Caption.CygwinLoginDialog.ConnectingCygwin">
-    <value>cygwinへの接続 - 接続中 (Ctrl+Cで中止します)</value>
+    <value>正在连接到cygwin...(按Ctrl+C停止)</value>
   </data>
   <data name="Caption.CygwinLoginDialog.ConnectingSFU">
-    <value>SFUへの接続 - 接続中 (Ctrl+Cで中止します)</value>
+    <value>正在连接到SFU...(按Ctrl+C停止)</value>
   </data>
   <data name="Message.CygwinLoginDialog.ConnectionError">
-    <value>接続エラー</value>
+    <value>连接错误</value>
   </data>
   <data name="Message.AddressNotResolved">
-    <value>ホスト名 {0} のIPアドレスが取得できませんでした。</value>
+    <value>无法获取主机{0}的IP</value>
   </data>
   <data name="Message.FailedToConnectPort">
-    <value>{0} のポート {1} への接続ができませんでした。</value>
+    <value>连接主机{0}的端口{1}失败</value>
   </data>
   <data name="Message.FailedToConnectAddress">
-    <value>{0} への接続ができませんでした。</value>
+    <value>连接主机{0}失败</value>
   </data>
   <data name="Message.ConnectionTimedOut">
-    <value>接続はタイムアウトしました</value>
+    <value>连接超时</value>
   </data>
   <data name="Message.CygwinUtil.KeyNotFound">
-    <value>Cygwinのレジストリキーがみつかりません。Cygwinが正しくインストールされていないと思われます。</value>
+    <value>注册表中找不到Cygwin，它可能没有正确安装</value>
   </data>
   <data name="Message.SFUUtil.KeyNotFound">
-    <value>レジストリキー{0}がみつかりません。Services for Unixが正しくインストールされていないと思われます。</value>
+    <value>注册表中找不到{0}，Unix的服务可能没有正确安装</value>
   </data>
   <data name="Message.CygwinUtil.CygtermExeNotFound">
-    <value>cygterm.exeが見つかりません</value>
+    <value>找不到cygterm.exe</value>
   </data>
   <data name="Message.CygwinUtil.FailedToRunCygterm">
-    <value>cygtermの実行に失敗しました</value>
+    <value>运行cygterm失败</value>
   </data>
   <data name="Message.CygwinUtil.FailedToConnect">
-    <value>cygwinとの接続中にエラーが発生しました。</value>
+    <value>连接到cygwin时发生错误</value>
   </data>
   <data name="Message.SFUUtil.FailedToConnect">
-    <value>Services for Unixとの接続中にエラーが発生しました。</value>
+    <value>连接到Unix的服务  时发生错误</value>
   </data>
   <data name="Message.HostKeyChecker.AskHostKeyRegister">
-    <value>SSHサーバの公開鍵はssh_known_hostsに登録されていません。登録して続行しますか？</value>
+    <value>SSH服务器的公匙不在已知的SSH主机缓存中，是否注册后继续？</value>
   </data>
   <data name="Message.HostKeyChecker.AskHostKeyRenew">
-    <value>SSHサーバの公開鍵はssh_known_hostsに登録されているものと異なります。更新して続行しますか？</value>
+    <value>SSH服务器的公匙与保存的不一至，是否更新后继续？</value>
   </data>
   <data name="Message.SSHSocket.FailedToStartShell">
-    <value>シェルの開始に失敗しました。</value>
+    <value>命令行打开失败</value>
   </data>
   <data name="Message.SSHSocket.AuthenticationFailed">
-    <value>認証に失敗しました。</value>
+    <value>认证失败</value>
   </data>
   <data name="Message.Telnet.FailedToSendTerminalType">
-    <value>ターミナルタイプの指定に失敗しました。</value>
+    <value>指定终端类型时失败</value>
   </data>
   <data name="Message.Telnet.FailedToSendWidnowSize">
-    <value>ウィンドウサイズの指定に失敗しました。</value>
+    <value>指定窗口大小时失败</value>
   </data>
   <data name="Message.Telnet.FailedToSendSuppressGoAhead">
-    <value>SuppressGoAheadの指定に失敗しました。</value>
+    <value>指定SuppressGoAhead选项时失败</value>
   </data>
   <data name="Caption.TCPTerminalConnection.UsingSOCKS">
-    <value>(SOCKSを使用)</value>
+    <value>(使用SOCKS)</value>
   </data>
   <data name="Message.SSHTerminalconnection.BreakError">
-    <value>Break信号の送信ができませんでした。SSHサーバがBreak信号をサポートしているか確認してください。</value>
+    <value>发送中止信号时失败。请确认SSH服务器是否支持中止信号</value>
   </data>
   <data name="Message.SSHTerminalConnection.ReproduceErrorOnSSH1">
-    <value>SSH1で接続を複製するときはオプションのSSHタブでパスフレーズを記憶するようにしていないといけません。</value>
+    <value>重新创建SSH1连接时，必须设置SSH选项页中的“记住密码直到程序退出”选项</value>
   </data>
   <data name="Message.SSHTerminalConnection.ReproduceErrorOnSSH2">
-    <value>SSH2で一度閉じた接続を複製するときはオプションのSSHタブでパスフレーズを記憶するようにしていないといけません。</value>
+    <value>重新创建已关闭的SSH2连接时，必须设置SSH选项页中的“记住密码直到程序退出”选项</value>
   </data>
   <data name="Message.SerialTerminalConnection.ReproduceError">
-    <value>シリアル接続の複製はできません。</value>
+    <value>串口连接不能重新创建</value>
   </data>
   <data name="Message.SerialTerminalConnection.ConfigError">
-    <value>シリアルポートの設定に失敗しました。</value>
+    <value>配置串口时失败</value>
   </data>
   <data name="Message.SSHTerminalConnection.CloseError">
-    <value>接続を閉じるときにエラーが発生しました。</value>
+    <value>关闭连接时出现错误</value>
   </data>
   <data name="Enum.IPVersionPriority.Both">
-    <value>制限なし</value>
+    <value>无限制</value>
   </data>
   <data name="Enum.IPVersionPriority.V4Only">
-    <value>IPv4のみ使用</value>
+    <value>只使用IPv4</value>
   </data>
   <data name="Enum.IPVersionPriority.V6Only">
-    <value>IPv6のみ使用</value>
+    <value>只使用IPv6</value>
   </data>
 </root>

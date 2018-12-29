@@ -7,118 +7,140 @@ $Id: stringresource.xml,v 1.6 2011/12/23 07:18:44 kzmi Exp $
 <record name="Common.OK">
   <ja>OK</ja>
   <en>OK</en>
+  <zh>确定</zh>
 </record>
 <record name="Common.Cancel">
   <ja>キャンセル</ja>
   <en>Cancel</en>
+  <zh>取消</zh>
 </record>
 
 <!-- CommunicationUtil.cs -->
 <record name="Message.SSHConnector.Cancelled">
   <ja>接続を中止しました。</ja>
   <en>Abort the connection.</en>
+  <zh>停止连接</zh>
 </record>
 
 <!-- CygwinLoginDialog.cs -->
 <record name="Form.CygwinLoginDialog._homeDirectoryLabel">
   <ja>ホームディレクトリ(&amp;H)</ja>
   <en>&amp;Home directory</en>
+  <zh>Home路径</zh>
 </record>
 <record name="Form.CygwinLoginDialog._lMessage">
   <ja>シェルがうまく起動できないときはCygTermをコンパイルしなおしてください。</ja>
   <en>If you cannot start the shell, please re-compile CygTerm.</en>
+  <zh>如果无法启动命令行，请重新编译CygTerm</zh>
 </record>
 <record name="Form.CygwinLoginDialog._advancedOptionCheck">
   <ja>高度な設定(&amp;A)</ja>
   <en>&amp;Advanced configuration</en>
+  <zh>高级选项</zh>
 </record>
 <record name="Form.CygwinLoginDialog._shellLabel">
   <ja>シェル(&amp;S)</ja>
   <en>&amp;Shell</en>
+  <zh>命令行</zh>
 </record>
 <record name="Form.CygwinLoginDialog.TextCygwin">
   <ja>cygwinへの接続</ja>
   <en>Connection to cygwin</en>
+  <zh>连接cygwin</zh>
 </record>
 <record name="Form.CygwinLoginDialog.TextSFU">
   <ja>SFUへの接続</ja>
   <en>Connection to SFU</en>
+  <zh>连接SFU</zh>
 </record>
 <record name="Form.CygwinLoginDialog._logTypeLabel">
   <ja>ログの種別(&amp;T)</ja>
   <en>Log &amp;type</en>
+  <zh>日志类型</zh>
 </record>
 <record name="Form.CygwinLoginDialog._logFileLabel">
   <ja>ログの保存先(&amp;L)</ja>
   <en>&amp;Log file</en>
+  <zh>日志文件</zh>
 </record>
 <record name="Message.CygwinLoginDialog.EmptyHomeDirectory">
   <ja>ホームディレクトリが入力されていません。</ja>
   <en>The home directory is empty.</en>
+  <zh>Home路径为空</zh>
 </record>
 <record name="Message.CygwinLoginDialog.EmptyShell">
   <ja>シェルが入力されていません。</ja>
   <en>The shell is empty.</en>
+  <zh>命令行为空</zh>
 </record>
 <record name="Caption.CygwinLoginDialog.ConnectingCygwin">
   <ja>cygwinへの接続 - 接続中 (Ctrl+Cで中止します)</ja>
   <en>Connection to cygwin - Connecting... (Ctrl+C to Stop)</en>
+  <zh>正在连接到cygwin...(按Ctrl+C停止)</zh>
 </record>
 <record name="Caption.CygwinLoginDialog.ConnectingSFU">
   <ja>SFUへの接続 - 接続中 (Ctrl+Cで中止します)</ja>
   <en>Connection to SFU - Connecting... (Ctrl+C to Stop)</en>
+  <zh>正在连接到SFU...(按Ctrl+C停止)</zh>
 </record>
 <record name="Message.CygwinLoginDialog.ConnectionError">
   <ja>接続エラー</ja>
   <en>Connection error</en>
+  <zh>连接错误</zh>
 </record>
 
 <!-- InterruptableConnector.cs -->
 <record name="Message.AddressNotResolved">
   <ja>ホスト名 {0} のIPアドレスが取得できませんでした。</ja>
   <en>The IP address of the host {0} was not obtained.</en>
+  <zh>无法获取主机{0}的IP</zh>
 </record>
 <record name="Message.FailedToConnectPort">
   <ja>{0} のポート {1} への接続ができませんでした。</ja>
   <en>Failed to connect the port {1} of the host {0}.</en>
+  <zh>连接主机{0}的端口{1}失败</zh>
 </record>
 <record name="Message.FailedToConnectAddress">
   <ja>{0} への接続ができませんでした。</ja>
   <en>Failed to connect the host {0}.</en>
+  <zh>连接主机{0}失败</zh>
 </record>
 <record name="Message.ConnectionTimedOut">
   <ja>接続はタイムアウトしました</ja>
   <en>Timed out to connect.</en>
+  <zh>连接超时</zh>
 </record>
 
 <!-- LocalShellUtil.cs -->
 <record name="Message.CygwinUtil.KeyNotFound">
   <ja>Cygwinのレジストリキーがみつかりません。Cygwinが正しくインストールされていないと思われます。</ja>
   <en>Cygwin registry key is not found. Cygwin may be not installed correctly.</en>
+  <zh>注册表中找不到Cygwin，它可能没有正确安装</zh>
 </record>
 <record name="Message.SFUUtil.KeyNotFound">
   <ja>レジストリキー{0}がみつかりません。Services for Unixが正しくインストールされていないと思われます。</ja>
   <en>The registry key {0} is not found. Services for Unix may be not installed correctly.</en>
+  <zh>注册表中找不到{0}，Unix的服务可能没有正确安装</zh>
 </record>
 <record name="Message.CygwinUtil.CygtermExeNotFound">
   <ja>cygterm.exeが見つかりません</ja>
   <en>cygterm.exe cannot be found.</en>
+  <zh>找不到cygterm.exe</zh>
 </record>
 <record name="Message.CygwinUtil.FailedToRunCygterm">
   <ja>cygtermの実行に失敗しました</ja>
   <en>Failed to run cygterm</en>
+  <zh>运行cygterm失败</zh>
 </record>
 <record name="Message.CygwinUtil.FailedToConnect">
-  <ja>cygwinとの接続中にエラーが発生しました。
-</ja>
-  <en>An error occurred while connecting to cygwin.
-</en>
-</record>
+  <ja>cygwinとの接続中にエラーが発生しました。</ja>
+  <en>An error occurred while connecting to cygwin.</en>
+  <zh>连接到cygwin时发生错误</zh>
+</record>3
 <record name="Message.SFUUtil.FailedToConnect">
-  <ja>Services for Unixとの接続中にエラーが発生しました。
-</ja>
-  <en>An error occurred while connecting to Services for Unix.
-</en>
+  <ja>Services for Unixとの接続中にエラーが発生しました。</ja>
+  <en>An error occurred while connecting to Services for Unix.</en>
+  <zh>连接到Unix的服务  时发生错误</zh>
 </record>
 
 
@@ -126,78 +148,95 @@ $Id: stringresource.xml,v 1.6 2011/12/23 07:18:44 kzmi Exp $
 <record name="Message.HostKeyChecker.AskHostKeyRegister">
   <ja>SSHサーバの公開鍵はssh_known_hostsに登録されていません。登録して続行しますか？</ja>
   <en>The public key of the SSH server is not cached in ssh_known_hosts. Do you wish to register it and continue?</en>
+  <zh>SSH服务器的公匙不在已知的SSH主机缓存中，是否注册后继续？</zh>
 </record>
 <record name="Message.HostKeyChecker.AskHostKeyRenew">
   <ja>SSHサーバの公開鍵はssh_known_hostsに登録されているものと異なります。更新して続行しますか？</ja>
   <en>The public key of the SSH server differs from the old key in ssh_known_hosts. Do you wish to renew it and continue?</en>
+  <zh>SSH服务器的公匙与保存的不一至，是否更新后继续？</zh>
 </record>
 
 <!-- SSHSocket.cs -->
 <record name="Message.SSHSocket.FailedToStartShell">
   <ja>シェルの開始に失敗しました。</ja>
   <en>Failed to start the shell.</en>
+  <zh>命令行打开失败</zh>
 </record>
 <record name="Message.SSHSocket.AuthenticationFailed">
   <ja>認証に失敗しました。</ja>
   <en>Authentication failed.</en>
+  <zh>认证失败</zh>
 </record>
 
   <!-- Telnet.cs -->
 <record name="Message.Telnet.FailedToSendTerminalType">
   <ja>ターミナルタイプの指定に失敗しました。</ja>
   <en>Failed to specify terminal type.</en>
+  <zh>指定终端类型时失败</zh>
 </record>
 <record name="Message.Telnet.FailedToSendWidnowSize">
   <ja>ウィンドウサイズの指定に失敗しました。</ja>
   <en>Failed to specify window size.</en>
+  <zh>指定窗口大小时失败</zh>
 </record>
 <record name="Message.Telnet.FailedToSendSuppressGoAhead">
   <ja>SuppressGoAheadの指定に失敗しました。</ja>
   <en>Failed to specify SuppressGoAhead option.</en>
+  <zh>指定SuppressGoAhead选项时失败</zh>
 </record>
 
 <!-- TerminalConnection.cs -->
 <record name="Caption.TCPTerminalConnection.UsingSOCKS">
   <ja>(SOCKSを使用)</ja>
   <en>(Using SOCKS)</en>
+  <zh>(使用SOCKS)</zh>
 </record>
 <record name="Message.SSHTerminalconnection.BreakError">
   <ja>Break信号の送信ができませんでした。SSHサーバがBreak信号をサポートしているか確認してください。</ja>
   <en>Failed to send break signal. Please check whether the SSH server supports break signals.</en>
+  <zh>发送中止信号时失败。请确认SSH服务器是否支持中止信号</zh>
 </record>
 <record name="Message.SSHTerminalConnection.ReproduceErrorOnSSH1">
   <ja>SSH1で接続を複製するときはオプションのSSHタブでパスフレーズを記憶するようにしていないといけません。</ja>
   <en>The "Memory Passphrase until the Application Quits" option in the SSH tab of the option dialog must be set when you reproduce SSH1 connections.</en>
-</record>
+  <zh>重新创建SSH1连接时，必须设置SSH选项页中的“记住密码直到程序退出”选项</zh>
+</record>3
 <record name="Message.SSHTerminalConnection.ReproduceErrorOnSSH2">
   <ja>SSH2で一度閉じた接続を複製するときはオプションのSSHタブでパスフレーズを記憶するようにしていないといけません。</ja>
   <en>The "Memory Passphrase until the Application Quits" option in the SSH tab of the option dialog must be set when you reproduce closed SSH2 connections.</en>
+  <zh>重新创建已关闭的SSH2连接时，必须设置SSH选项页中的“记住密码直到程序退出”选项</zh>
 </record>
 <record name="Message.SerialTerminalConnection.ReproduceError">
   <ja>シリアル接続の複製はできません。</ja>
   <en>Serial connections can not be reproduced.</en>
+  <zh>串口连接不能重新创建</zh>
 </record>
 <record name="Message.SerialTerminalConnection.ConfigError">
   <ja>シリアルポートの設定に失敗しました。</ja>
   <en>Failed to configure serial port.</en>
+  <zh>配置串口时失败</zh>
 </record>
 <record name="Message.SSHTerminalConnection.CloseError">
   <ja>接続を閉じるときにエラーが発生しました。</ja>
   <en>An error occurred while closing the connection.</en>
+  <zh>关闭连接时出现错误</zh>
 </record>
 
 <!-- Enums -->
 <record name="Enum.IPVersionPriority.Both">
   <ja>制限なし</ja>
   <en>No restriction</en>
+  <zh>无限制</zh>
 </record>
 <record name="Enum.IPVersionPriority.V4Only">
   <ja>IPv4のみ使用</ja>
   <en>Use IPv4 Only</en>
+  <zh>只使用IPv4</zh>
 </record>
 <record name="Enum.IPVersionPriority.V6Only">
   <ja>IPv6のみ使用</ja>
   <en>Use IPv6 Only</en>
+  <zh>只使用IPv6</zh>
 </record>
 
 

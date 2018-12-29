@@ -32,6 +32,8 @@ namespace Granados.Util {
             CultureInfo ci = System.Threading.Thread.CurrentThread.CurrentUICulture;
             if (ci.Name.StartsWith("ja"))
                 _resMan = new ResourceManager(name + "_ja", asm);
+            else if (ci.Name.StartsWith("zh"))
+                _resMan = new ResourceManager(name + "_zh", asm);
             else
                 _resMan = new ResourceManager(name, asm);
         }

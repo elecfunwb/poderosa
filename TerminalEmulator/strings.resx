@@ -55,8 +55,7 @@
     <value>Failed to decode characters by the current encoding {0}. Please check the encode setting.</value>
   </data>
   <data name="Message.EscapesequenceTerminal.UnsupportedSequence">
-    <value>An unsupported escape sequence is detected.
-</value>
+    <value>An unsupported escape sequence is detected.</value>
   </data>
   <data name="Message.ConnectionCommandTarget.CloseError">
     <value>An error occurred when closing the connection.</value>

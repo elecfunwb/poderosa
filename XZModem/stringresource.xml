@@ -80,7 +80,7 @@ $Id: stringresource.xml,v 1.1 2010/11/19 15:41:42 kzmi Exp $
 <record name="Caption.XZModemDialog.TransmissionFileSelect">
   <ja>送信するファイルの選択</ja>
   <en>Select file to send</en>
-  <zh>发送选择的文件</zh>
+  <zh>选择发送的文件</zh>
 </record>
 <record name="Caption.XZModemDialog.ReceptionProgress">
   <ja>{0} バイト受信...</ja>

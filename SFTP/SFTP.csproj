@@ -123,6 +123,7 @@
     <EmbeddedResource Include="strings_ja.resx">
       <SubType>Designer</SubType>
     </EmbeddedResource>
+    <EmbeddedResource Include="strings_zh.resx" />
     <EmbeddedResource Include="YesNoAllDialog.resx">
       <SubType>Designer</SubType>
       <DependentUpon>YesNoAllDialog.cs</DependentUpon>

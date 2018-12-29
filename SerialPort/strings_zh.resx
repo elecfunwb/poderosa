@@ -12,119 +12,120 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=1.0.3102.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="Common.OK">
-    <value>OK</value>
+    <value>确定</value>
   </data>
   <data name="Common.Cancel">
-    <value>Cancel</value>
+    <value>取消</value>
   </data>
   <data name="Common.Do">
-    <value>Yes</value>
+    <value>是</value>
   </data>
   <data name="Common.DoNot">
-    <value>No</value>
+    <value>否</value>
   </data>
   <data name="Command.SerialPort">
-    <value>Open serial port</value>
+    <value>打开串口</value>
   </data>
   <data name="Menu.SerialPort">
-    <value>Open &amp;serial port</value>
+    <value>打开串口</value>
   </data>
   <data name="Enum.FlowControl.None">
-    <value>None</value>
+    <value>无</value>
   </data>
   <data name="Enum.FlowControl.Xon_Xoff">
     <value>Xon/Xoff</value>
   </data>
   <data name="Enum.FlowControl.Hardware">
-    <value>Hardware</value>
+    <value>硬件</value>
   </data>
   <data name="Enum.Parity.NOPARITY">
-    <value>None</value>
+    <value>无</value>
   </data>
   <data name="Enum.Parity.ODDPARITY">
-    <value>Odd</value>
+    <value>奇数</value>
   </data>
   <data name="Enum.Parity.EVENPARITY">
-    <value>Even</value>
+    <value>偶数</value>
   </data>
   <data name="Enum.StopBits.ONESTOPBIT">
-    <value>1 bit</value>
+    <value>1位</value>
   </data>
   <data name="Enum.StopBits.ONE5STOPBITS">
-    <value>1.5 bits</value>
+    <value>1.5位</value>
   </data>
   <data name="Enum.StopBits.TWOSTOPBITS">
-    <value>2 bits</value>
+    <value>2位</value>
   </data>
   <data name="Form.SerialConfig._portLabel">
-    <value>&amp;Port</value>
+    <value>端口</value>
   </data>
   <data name="Form.SerialConfig._baudRateLabel">
-    <value>&amp;Baud rate</value>
+    <value>波特率</value>
   </data>
   <data name="Form.SerialConfig._dataBitsLabel">
-    <value>&amp;Data</value>
+    <value>数据位</value>
   </data>
   <data name="Form.SerialConfig._parityLabel">
-    <value>P&amp;arity</value>
+    <value>奇偶校验</value>
   </data>
   <data name="Form.SerialConfig._stopBitsLabel">
-    <value>&amp;Stop bits</value>
+    <value>停止位</value>
   </data>
   <data name="Form.SerialConfig._flowControlLabel">
-    <value>Flo&amp;w control</value>
+    <value>流控制</value>
   </data>
   <data name="Form.SerialConfig._transmitDelayLineLabel">
-    <value>Transmit Delay(line)</value>
+    <value>发送延迟(行)</value>
   </data>
   <data name="Form.SerialConfig._transmitDelayCharLabel">
-    <value>Transmit Delay(char)</value>
+    <value>发送延迟(字符)</value>
   </data>
   <data name="Caption.SerialConfig.Bits">
-    <value>bits</value>
+    <value>位</value>
   </data>
   <data name="Form.SerialConfig.Text">
-    <value>Serial port configuration</value>
+    <value>串口设置</value>
   </data>
   <data name="Form.SerialLoginDialog._serialGroup">
-    <value>Serial port</value>
+    <value>串口</value>
   </data>
   <data name="Form.SerialLoginDialog._terminalGroup">
-    <value>Terminal settings</value>
+    <value>终端设置</value>
   </data>
   <data name="Form.SerialLoginDialog.Text">
-    <value>New serial connection</value>
+    <value>新建串口连接</value>
   </data>
   <data name="Form.SerialLoginDialog._localEchoLabel">
-    <value>Local ech&amp;o</value>
+    <value>本地回显</value>
   </data>
   <data name="Form.SerialLoginDialog._newLineLabel">
-    <value>&amp;New line</value>
+    <value>发送新行</value>
   </data>
   <data name="Form.SerialLoginDialog._logFileLabel">
-    <value>Log &amp;file</value>
+    <value>日志文件</value>
   </data>
   <data name="Form.SerialLoginDialog._encodingLabel">
-    <value>&amp;Encoding</value>
+    <value>编码</value>
   </data>
   <data name="Form.SerialLoginDialog._logTypeLabel">
-    <value>&amp;Log type</value>
+    <value>日志类型</value>
   </data>
   <data name="Form.SerialLoginDialog._autoExecMacroPathLabel">
-    <value>Auto Exec Macro</value>
+    <value>自动运行宏</value>
   </data>
   <data name="Message.CommunicationUtil.FailedToOpenSerial">
-    <value>Failed to open the serial port.</value>
+    <value>打开串口失败</value>
   </data>
   <data name="Message.NoSuchDevice">
     <value>
-Nonexistent device is selected.</value>
+选择的设备不存在
+  </value>
   </data>
   <data name="Message.DeviceIsBusy">
     <value>
-The port is already used by other applications.</value>
+端口已被占用</value>
   </data>
   <data name="Message.FailedToConfigSerial">
-    <value>Failed to configure serial port.</value>
+    <value>配置串口失败</value>
   </data>
 </root>

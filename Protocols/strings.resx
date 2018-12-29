@@ -84,12 +84,10 @@
     <value>Failed to run cygterm</value>
   </data>
   <data name="Message.CygwinUtil.FailedToConnect">
-    <value>An error occurred while connecting to cygwin.
-</value>
+    <value>An error occurred while connecting to cygwin.</value>
   </data>
   <data name="Message.SFUUtil.FailedToConnect">
-    <value>An error occurred while connecting to Services for Unix.
-</value>
+    <value>An error occurred while connecting to Services for Unix.</value>
   </data>
   <data name="Message.HostKeyChecker.AskHostKeyRegister">
     <value>The public key of the SSH server is not cached in ssh_known_hosts. Do you wish to register it and continue?</value>

@@ -1,0 +1,88 @@
+﻿<root>
+  <resheader name="ResMimeType">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="Version">
+    <value>1.0.0.0</value>
+  </resheader>
+  <resheader name="Reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=1.0.3102.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="Writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=1.0.3102.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="SFTPCommand.MenuText">
+    <value>SFTP (实验性)...</value>
+  </data>
+  <data name="SCPCommand.MenuText">
+    <value>SCP (实验性)...</value>
+  </data>
+  <data name="SFTPToolbarCommandButton.ToolTip">
+    <value>SFTP (实验性)...</value>
+  </data>
+  <data name="SCPToolbarCommandButton.ToolTip">
+    <value>SCP (实验性)...</value>
+  </data>
+  <data name="Common.UnknownPeer">
+    <value>未知</value>
+  </data>
+  <data name="SFTPForm.labelDropHere">
+    <value>拖拽文件或文件夹上传</value>
+  </data>
+  <data name="SFTPForm.buttonCancel">
+    <value>取消</value>
+  </data>
+  <data name="SFTPForm.buttonDownload">
+    <value>下载到...</value>
+  </data>
+  <data name="SFTPForm.Confirmation">
+    <value>确认</value>
+  </data>
+  <data name="SFTPForm.AskOverwriteFormat">
+    <value>{0} 已存在.
+是否覆盖？</value>
+  </data>
+  <data name="SFTPForm.ChooseFolder">
+    <value>选择一个文件夹来保存文件</value>
+  </data>
+  <data name="SCPForm.labelRemotePath">
+    <value>远程路径</value>
+  </data>
+  <data name="SCPForm.checkPreserveTime">
+    <value>保存修改时间</value>
+  </data>
+  <data name="SCPForm.checkRecursive">
+    <value>递归</value>
+  </data>
+  <data name="SCPForm.labelDropHere">
+    <value>拖拽文件或文件夹到这儿来上传</value>
+  </data>
+  <data name="SCPForm.buttonDownload">
+    <value>下载到...</value>
+  </data>
+  <data name="SCPForm.buttonCancel">
+    <value>取消</value>
+  </data>
+  <data name="SCPForm.ChooseFolder">
+    <value>选择一个文件夹来保存文件</value>
+  </data>
+  <data name="SCPForm.NeedRemotePath">
+    <value>需要远程路径</value>
+  </data>
+  <data name="SCPForm.RecursiveOptionIsRequired">
+    <value>复制文件夹时需要能使递归选项.
+需要现在使能递归选项吗？</value>
+  </data>
+  <data name="YesNoAllDialog.buttonYes">
+    <value>是</value>
+  </data>
+  <data name="YesNoAllDialog.buttonNo">
+    <value>否</value>
+  </data>
+  <data name="YesNoAllDialog.buttonYesToAll">
+    <value>全部为是</value>
+  </data>
+  <data name="YesNoAllDialog.buttonCancel">
+    <value>取消</value>
+  </data>
+</root>

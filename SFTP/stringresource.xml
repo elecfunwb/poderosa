@@ -7,26 +7,31 @@ $Id: stringresource.xml,v 1.2 2012/05/05 12:42:45 kzmi Exp $
 <record name="SFTPCommand.MenuText">
   <ja>SFTP (experimental)...</ja>
   <en>SFTP (experimental)...</en>
+  <zh>SFTP (实验性)...</zh>
 </record>
 
 <record name="SCPCommand.MenuText">
   <ja>SCP (experimental)...</ja>
   <en>SCP (experimental)...</en>
+  <zh>SCP (实验性)...</zh>
 </record>
 
 <record name="SFTPToolbarCommandButton.ToolTip">
   <ja>SFTP (experimental)</ja>
   <en>SFTP (experimental)</en>
+  <zh>SFTP (实验性)...</zh>
 </record>
 
 <record name="SCPToolbarCommandButton.ToolTip">
   <ja>SCP (experimental)</ja>
   <en>SCP (experimental)</en>
+  <zh>SCP (实验性)...</zh>
 </record>
 
 <record name="Common.UnknownPeer">
   <ja>(不明)</ja>
   <en>(unknown)</en>
+  <zh>未知</zh>
 </record>
 
 <!--
@@ -35,26 +40,32 @@ $Id: stringresource.xml,v 1.2 2012/05/05 12:42:45 kzmi Exp $
 <record name="SFTPForm.labelDropHere">
   <ja>ファイルやフォルダをドロップしてアップロード</ja>
   <en>Drop files or folders to upload</en>
+  <zh>拖拽文件或文件夹上传</zh>
 </record>
 <record name="SFTPForm.buttonCancel">
   <ja>キャンセル</ja>
   <en>Cancel</en>
+  <zh>取消</zh>
 </record>
 <record name="SFTPForm.buttonDownload">
   <ja>ダウンロード...</ja>
   <en>Download to...</en>
+  <zh>下载到...</zh>
 </record>
 <record name="SFTPForm.Confirmation">
   <ja>確認</ja>
   <en>Confirmation</en>
+  <zh>确认</zh>
 </record>
 <record name="SFTPForm.AskOverwriteFormat">
   <ja>{0} が存在します。&#13;&#10;上書きしますか？</ja>
   <en>{0} already exists.&#13;&#10;Overwrite it ?</en>
+  <zh>{0} 已存在.&#13;&#10;是否覆盖？</zh>
 </record>
 <record name="SFTPForm.ChooseFolder">
   <ja>保存先のフォルダを選択してください。</ja>
   <en>Choose a folder to save files.</en>
+  <zh>选择一个文件夹来保存文件</zh>
 </record>
 
 
@@ -64,40 +75,49 @@ $Id: stringresource.xml,v 1.2 2012/05/05 12:42:45 kzmi Exp $
 <record name="SCPForm.labelRemotePath">
   <ja>リモートパス</ja>
   <en>Remote path</en>
+  <zh>远程路径</zh>
 </record>
 <record name="SCPForm.checkPreserveTime">
   <ja>更新日時を保持</ja>
   <en>Preserve modification time</en>
+  <zh>保存修改时间</zh>
 </record>
 <record name="SCPForm.checkRecursive">
   <ja>再帰</ja>
   <en>Recursive</en>
+  <zh>递归</zh>
 </record>
 <record name="SCPForm.labelDropHere">
   <ja>ここにファイルやフォルダをドロップしてアップロード</ja>
   <en>Drop files or folders here to upload</en>
+  <zh>拖拽文件或文件夹到这儿来上传</zh>
 </record>
 <record name="SCPForm.buttonDownload">
   <ja>ダウンロード...</ja>
   <en>Download to...</en>
+  <zh>下载到...</zh>
 </record>
 <record name="SCPForm.buttonCancel">
   <ja>キャンセル</ja>
   <en>Cancel</en>
+  <zh>取消</zh>
 </record>
 
 <record name="SCPForm.ChooseFolder">
   <ja>保存先のフォルダを選択してください。</ja>
   <en>Choose a folder to save files.</en>
+  <zh>选择一个文件夹来保存文件</zh>
 </record>
 
 <record name="SCPForm.NeedRemotePath">
   <ja>リモートパスを入力してください。</ja>
   <en>Remote path is required.</en>
+  <zh>需要远程路径</zh>
 </record>
 <record name="SCPForm.RecursiveOptionIsRequired">
   <ja>ディレクトリのコピーには再帰オプションが必要です。&#13;&#10;今すぐ再帰オプションを有効にしますか？</ja>
   <en>Recursive option is required to copy a directory.&#13;&#10;Do you want to enable the recursive option now ?</en>
+  <zh>复制文件夹时需要能使递归选项.&#13;&#10;需要现在使能递归选项吗？</zh>
 </record>
 
 
@@ -107,18 +127,22 @@ $Id: stringresource.xml,v 1.2 2012/05/05 12:42:45 kzmi Exp $
 <record name="YesNoAllDialog.buttonYes">
   <ja>はい(&amp;Y)</ja>
   <en>&amp;Yes</en>
+  <zh>是</zh>
 </record>
 <record name="YesNoAllDialog.buttonNo">
   <ja>いいえ(&amp;N)</ja>
   <en>&amp;No</en>
+  <zh>否</zh>
 </record>
 <record name="YesNoAllDialog.buttonYesToAll">
   <ja>全てにはい(&amp;A)</ja>
   <en>Yes to &amp;all</en>
+  <zh>全部为是</zh>
 </record>
 <record name="YesNoAllDialog.buttonCancel">
   <ja>キャンセル(&amp;C)</ja>
   <en>&amp;Cancel</en>
+  <zh>取消</zh>
 </record>
 
 
