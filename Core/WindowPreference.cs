@@ -140,7 +140,6 @@ namespace Poderosa.Forms {
 
         private Language GetNativeLanguage() {
             IPoderosaCulture c = WindowManagerPlugin.Instance.PoderosaWorld.Culture;
-            //return c.InitialCulture.Name.StartsWith("ja") ? Language.Japanese : Language.English;
             if (c.InitialCulture.Name.StartsWith("ja"))
                 return Language.Japanese;
             else if (c.InitialCulture.Name.StartsWith("zh"))

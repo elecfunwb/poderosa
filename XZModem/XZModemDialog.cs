@@ -75,8 +75,8 @@ namespace Poderosa.XZModem {
             this.Location = new Point(r.Left + r.Width / 2 - this.Width / 2, r.Top + r.Height / 2 - this.Height / 2);
 
             //TODO 前回の起動時の設定を覚えておくとよい
-            _protocolBox.SelectedIndex = 1;
-            _directionBox.SelectedIndex = 0;
+            _protocolBox.SelectedIndex = 0;
+            _directionBox.SelectedIndex = 1;
         }
 
 
@@ -217,9 +217,30 @@ namespace Poderosa.XZModem {
             this.ShowInTaskbar = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;
             this.ResumeLayout(false);
+            this.AllowDrop = true;
+            this.DragEnter += new DragEventHandler(XZModemDialog_DragEnter);
+            this.DragDrop += new DragEventHandler(XZModemDialog_DragDrop);
 
         }
         #endregion
+
+        private void XZModemDialog_DragEnter(object sender, DragEventArgs e)
+        {
+            if (e.Data.GetDataPresent(DataFormats.FileDrop))
+            {
+                e.Effect = DragDropEffects.All;
+            }
+            else
+            {
+                e.Effect = DragDropEffects.None;
+            }
+        }
+
+        private void XZModemDialog_DragDrop(object sender, DragEventArgs e)
+        {
+            string[] path = (string[])e.Data.GetData(DataFormats.FileDrop, false);
+            _fileNameBox.Text = path[0];
+        }
 
         private void OnSelectFile(object sender, EventArgs args) {
             StringResource sr = XZModemPlugin.Instance.Strings;
