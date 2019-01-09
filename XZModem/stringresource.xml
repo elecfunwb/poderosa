@@ -88,9 +88,9 @@ $Id: stringresource.xml,v 1.1 2010/11/19 15:41:42 kzmi Exp $
   <zh>已接收: {0} 字节...</zh>
 </record>
 <record name="Caption.XZModemDialog.TransmissionProgress">
-  <ja>{0} バイト送信...</ja>
-  <en>Sent: {0} bytes...</en>
-  <zh>已发送: {0} 字节...</zh>
+  <ja>{0} バイト送信, {1}%...</ja>
+  <en>Sent: {0} bytes, {1}%...</en>
+  <zh>已发送: {0} 字节，{1}%...</zh>
 </record>
 <record name="Caption.XZModemDialog.InitialPrompt">
   <ja>ホスト側で用意ができたら開始してください。</ja>

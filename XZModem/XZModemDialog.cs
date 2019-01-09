@@ -384,9 +384,9 @@ namespace Poderosa.XZModem {
             Dispose();
         }
 
-        public void SetProgressValue(long value) {
+        public void SetProgressValue(long value, long size) {
             if (this.InvokeRequired) {
-                Invoke((Action)(() => SetProgressValue(value)));
+                Invoke((Action)(() => SetProgressValue(value, size)));
                 return;
             }
 
@@ -397,7 +397,7 @@ namespace Poderosa.XZModem {
             if (_modemTask.IsReceivingTask)
                 _progressText.Text = String.Format(sr.GetString("Caption.XZModemDialog.ReceptionProgress"), value);
             else
-                _progressText.Text = String.Format(sr.GetString("Caption.XZModemDialog.TransmissionProgress"), value);
+                _progressText.Text = String.Format(sr.GetString("Caption.XZModemDialog.TransmissionProgress"), value, (int)(100 * value / size));
         }
 
         private XZModemPlugin.Protocol GetCurrentProtocol() {

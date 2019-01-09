@@ -926,7 +926,7 @@ namespace Poderosa.XZModem {
                 SendPacket(_sndBuff, index);
 
                 if (!_stopped) {
-                    _parent.SetProgressValue(filePos);
+                    _parent.SetProgressValue(filePos, _fileSize);
                 }
 
                 if (frameType == ZCRCE) {
@@ -1151,7 +1151,7 @@ namespace Poderosa.XZModem {
             _filePos += (uint)length;
             if ((oldPos / 1024) != (_filePos / 1024)) {
                 if (!_stopped) {
-                    _parent.SetProgressValue(_filePos);
+                    _parent.SetProgressValue(_filePos, 0);
                 }
             }
         }

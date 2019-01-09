@@ -60,7 +60,7 @@
     <value>已接收: {0} 字节...</value>
   </data>
   <data name="Caption.XZModemDialog.TransmissionProgress">
-    <value>已发送: {0} 字节...</value>
+    <value>已发送: {0} 字节，{1}%...</value>
   </data>
   <data name="Caption.XZModemDialog.InitialPrompt">
     <value>主机准备好后请点击开始</value>

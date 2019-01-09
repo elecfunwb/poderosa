@@ -60,7 +60,7 @@
     <value>Received: {0} bytes...</value>
   </data>
   <data name="Caption.XZModemDialog.TransmissionProgress">
-    <value>Sent: {0} bytes...</value>
+    <value>Sent: {0} bytes, {1}%...</value>
   </data>
   <data name="Caption.XZModemDialog.InitialPrompt">
     <value>Push "Start" after preparing the host.</value>

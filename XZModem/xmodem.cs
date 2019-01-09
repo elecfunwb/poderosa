@@ -69,8 +69,8 @@ namespace Poderosa.XZModem {
             }
         }
 
-        protected void SetProgressValue(long pos) {
-            _parent.SetProgressValue(pos);
+        protected void SetProgressValue(long pos, long size) {
+            _parent.SetProgressValue(pos, size);
         }
 
         protected void Trace(string message) {
@@ -358,7 +358,7 @@ namespace Poderosa.XZModem {
                 _pendingLen = 0;
             }
 
-            SetProgressValue(_fileSize);
+            SetProgressValue(_fileSize, 0);
         }
 
         private void SaveToPendingBuffer(byte[] buff, int offset, int length) {
@@ -568,7 +568,8 @@ namespace Poderosa.XZModem {
                     Trace("--> ACK");
                     if (_state == State.AfterEOT) {
                         _state = State.Stopped;
-                        Completed(false, true, XZModemPlugin.Instance.Strings.GetString("Message.XModem.SendComplete"));
+                        //Completed(false, true, XZModemPlugin.Instance.Strings.GetString("Message.XModem.SendComplete"));
+                        Completed(false, true, null);
                     }
                     else {
                         SendBlock(_crcMode, false);
@@ -640,7 +641,7 @@ namespace Poderosa.XZModem {
 
             Send(_sendBuff, blockLen);
 
-            SetProgressValue((int)_nextPos);
+            SetProgressValue((int)_nextPos, (int)_fileSize);
         }
     }
 }

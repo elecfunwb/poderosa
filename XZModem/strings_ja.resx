@@ -60,7 +60,7 @@
     <value>{0} バイト受信...</value>
   </data>
   <data name="Caption.XZModemDialog.TransmissionProgress">
-    <value>{0} バイト送信...</value>
+    <value>{0} バイト送信, {1}%...</value>
   </data>
   <data name="Caption.XZModemDialog.InitialPrompt">
     <value>ホスト側で用意ができたら開始してください。</value>
